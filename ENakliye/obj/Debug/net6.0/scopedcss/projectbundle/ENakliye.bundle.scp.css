@@ -1,0 +1,202 @@
+/* _content/ENakliye/Views/Shared/_Layout.cshtml.rz.scp.css */
+/*
+    timocom sitesinin css dosya yolu
+    top>timcdnprd.azureedge.net>resource>themes/timocom>css
+*/
+/*default css start*/
+
+*[b-qxk9jv2l3y] {
+    font-family: "Times New Roman", Times, serif;/* :) */
+}
+
+a.navbar-brand[b-qxk9jv2l3y] {
+    white-space: normal;
+    text-align: initial;
+    word-break: break-all;
+    position: absolute;
+    top: 0;
+}
+.inline-navbar[b-qxk9jv2l3y]{
+    margin-left:10px;
+    display:inline-block;
+}
+
+a[b-qxk9jv2l3y] {
+    color: #0077cc;
+}
+
+.btn-primary[b-qxk9jv2l3y] {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+.nav-pills .nav-link.active[b-qxk9jv2l3y], .nav-pills .show > .nav-link[b-qxk9jv2l3y] {
+    color: #fff;
+    background-color: #1b6ec2;
+    border-color: #1861ac;
+}
+
+.border-top[b-qxk9jv2l3y] {
+  border-top: 1px solid #e5e5e5;
+}
+.border-bottom[b-qxk9jv2l3y] {
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.box-shadow[b-qxk9jv2l3y] {
+  box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+}
+
+button.accept-policy[b-qxk9jv2l3y] {
+  font-size: 1rem;
+  line-height: inherit;
+}
+
+.footer[b-qxk9jv2l3y] {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  white-space: nowrap;
+  line-height: 60px;
+}
+/*   default css end*/
+/*navbar css start*/   
+/*
+    not: <a> taglerini bir classtan yönetmeyi başaramadım
+    şimdilik ctrl+shift+H ile textlere toplu değiştirme uygulanabilir
+*/
+.navbarli[b-qxk9jv2l3y] {
+    font-weight: normal;
+}
+.navbarli:hover[b-qxk9jv2l3y] {
+    text-decoration: underline !important;
+    text-decoration-color: white !important;
+}
+.navbarul[b-qxk9jv2l3y] {
+    list-style: none;
+    background: #b31010; /*navbar background color*/
+    color: black;
+}
+.navbarul .navbarli[b-qxk9jv2l3y]{
+    display:inline-block;
+    position:relative;
+}
+.navbarul .navbarli a[b-qxk9jv2l3y]{
+    display:block;
+    padding:20px 25px;
+    text-decoration:none;
+    text-align:center;
+    font-size:20px;
+}
+.navbarul .navbarli ul.navbardropdown .navbarli[b-qxk9jv2l3y]{
+    display:block;
+}
+.navbarul .navbarli ul.navbardropdown[b-qxk9jv2l3y] {
+    width: 300%;
+    background: #CF2E2E; /* navbar dropdown background color*/
+    position: absolute;
+    z-index: 999;
+    display: none;
+}
+.navbarul .navbarli a:hover[b-qxk9jv2l3y]{
+    background:#112C66;
+}
+.navbarul .navbarli:hover ul.navbardropdown[b-qxk9jv2l3y] {
+    display: block;
+}
+/*Searchbar start*/
+#navbaritemrightside[b-qxk9jv2l3y] { /*search bar list itemini sağa yaslar*/
+ position: absolute; /* # işareti bunun bir id olduğunu belirtiyor*/
+    top: 5px;
+    right: 2% !important;
+    align-items: center !important;
+}
+#navbaritemrightside:hover[b-qxk9jv2l3y] {
+text-decoration: none !important;
+}
+
+.right_area_div[b-qxk9jv2l3y] {
+    position: relative;
+    background-color: transparent;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.search_form[b-qxk9jv2l3y] {
+    display: inline-block;
+    width: 50%;
+}
+
+.searchbarbutton[b-qxk9jv2l3y] {
+    margin-right: 100px;
+    height: 30px;
+    width: 50px;
+    background-color: transparent;
+    border: none;
+}
+.girisyapbutton[b-qxk9jv2l3y] {
+    align-self: center;
+    border: none;
+    background-color: #f3f3f3;
+    border-radius: 5%;
+}
+
+#login-button-text[b-qxk9jv2l3y] { 
+    color: #b31010;
+}
+
+    /*Searchbar end*/
+    /*navbar css end*/
+    /*footer start*/
+.footersettings[b-qxk9jv2l3y]{
+    background-color:#333333 !important;
+}    
+/*footer list start*/
+.footerlist[b-qxk9jv2l3y] {
+    margin: 0 !important;
+    padding: 0 !important;
+    list-style: none;
+}
+.footer_categories[b-qxk9jv2l3y] {
+    font-weight: bold;
+    width:25%;/*4 adet kategori olduğu için ekran 4'e bölünmüştür*/
+    float: left;
+    margin-bottom: 100px;
+}
+.footer_sub_list[b-qxk9jv2l3y] {
+    list-style: none;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+.text_decoration_under_line_on_hover[b-qxk9jv2l3y] {
+    margin: -40px 0px 0px 0px !important; /*margin sırası top right bottom left*/
+    font-weight:normal;
+    padding: 0px 0px 0px 0px !important;
+    position: relative;
+}
+.text_decoration_under_line_on_hover:hover[b-qxk9jv2l3y] {
+    text-decoration: underline !important;
+    text-decoration-color: white !important;
+}
+/*footer list end*/
+/*sosyal medya hesapları start*/
+.contuct_and_privacy[b-qxk9jv2l3y] {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height:15%;
+    background-color: #333333;
+    color:white !important;
+}
+/*sosyal medya hesapları end*/
+/*social media icon start*/
+.social_media_icon[b-qxk9jv2l3y] {
+    margin-right: 10px;
+    margin-left: 10px;
+    text-decoration: none;
+}
+
+
+/*social media icon end*/
+    /*footer end*/

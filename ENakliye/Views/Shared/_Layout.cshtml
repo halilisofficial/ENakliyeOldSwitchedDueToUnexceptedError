@@ -1,0 +1,327 @@
+﻿<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - GNY</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/ENakliye.styles.css" asp-append-version="true" />
+    <link href="~\enakliye\views\shared\_layout.cshtml.css" rel="stylesheet" />
+</head>
+<body>
+    <header>
+        @*navbar start*@
+        <ul class="navbarul">
+            @*HomePage Start*@
+            <li class="navbarli">
+                <a class="nav-link text-white" asp-area="" asp-controller="Home" asp-action="Index">GNY</a>
+            </li>
+            @*HomePage End*@
+            @*Product Controller Start*@
+            <li class="navbarli">
+                <a class="nav-link text-white" asp-area="" asp-controller="Product" asp-action="Index">Ürün</a>
+                <ul class="navbardropdown">
+                    <li class="navbarli">
+                        <a class="nav-link text-white" asp-area="" asp-controller="Product" asp-action="OverView">Genel Bakış</a>
+                    </li>
+                    <li class="navbarli">
+                        <a class="nav-link text-white" asp-area="" asp-controller="Product" asp-action="Advert">İlanlar</a>
+                    </li>
+                    <li class="navbarli">
+                        <a class="nav-link text-white" asp-area="" asp-controller="Product" asp-action="Warehouse">Depo</a>
+                    </li>
+                    <li class="navbarli">
+                        <a class="nav-link text-white" asp-area="" asp-controller="Product" asp-action="Tracking">İzleme</a>
+                    </li>
+                    <li class="navbarli">
+                        <a class="nav-link text-white" asp-area="" asp-controller="Product" asp-action="RatingsFeature">Değerlendirme Fonksiyonu</a>
+                    </li>
+                    <li class="navbarli">
+                        <a class="nav-link text-white" asp-area="" asp-controller="Product" asp-action="Freight">Yükler</a>
+                    </li>
+                    <li class="navbarli">
+                        <a class="nav-link text-white" asp-area="" asp-controller="Product" asp-action="VehicleSpace">Boş Araç</a>
+                    </li>
+                    <li class="navbarli">
+                        <a class="nav-link text-white" asp-area="" asp-controller="Product" asp-action="ClosedFreightExchange">Kapalı Yük Borsası</a>
+                    </li>
+                    <li class="navbarli">
+                        <a class="nav-link text-white" asp-area="" asp-controller="Product" asp-action="ShipmentTracking">Nakliye Takibi</a>
+                    </li>
+                
+                    <li class="navbarli">
+                        <a class="nav-link text-white" asp-area="" asp-controller="Product" asp-action="TransportOrders">Nakliyat İşleri</a>
+                    </li>
+                    <li class="navbarli">
+                        <a class="nav-link text-white" asp-area="" asp-controller="Product" asp-action="FreightExchangeInterface">Yük Borsası Arayüzü</a>
+                    </li>
+                    <li class="navbarli">
+                        <a class="nav-link text-white" asp-area="" asp-controller="Product" asp-action="TransportOrderInterface">Nakliye Siparişleri Arayüzü</a>
+                    </li>
+                    <li class="navbarli">
+                        <a class="nav-link text-white" asp-area="" asp-controller="Product" asp-action="TrackingInterface">Takip Arayüzü</a>
+                    </li>
+                </ul>
+            </li>
+            @*Product Controller End*@
+            @*Servis Controller Start*@
+            <li class="navbarli">
+                <a class="nav-link text-white" asp-area="" asp-controller="Servis" asp-action="Index">Hizmetler</a>
+                <ul class="navbardropdown">
+                    <li class="navbarli">
+                        <a class="nav-link text-white" asp-area="" asp-controller="Servis" asp-action="OverView">Genel Bakış</a>
+                    </li>
+                    <li class="navbarli">
+                        <a class="nav-link text-white" asp-area="" asp-controller="Servis" asp-action="TransportBaroMeter">Nakliye Barometresi</a>
+                    </li>
+                        <li class="navbarli">
+                        <a class="nav-link text-white" asp-area="" asp-controller="Servis" asp-action="TransportDictionary">Nakliye Sözlüğü</a>
+                    </li>
+                    <li class="navbarli">
+                        <a class="nav-link text-white" asp-area="" asp-controller="Servis" asp-action="Security">Güvenlik</a>
+                    </li>
+                    <li class="navbarli">
+                        <a class="nav-link text-white" asp-area="" asp-controller="Servis" asp-action="Download">İndir</a>
+                    </li>
+                    <li class="navbarli">
+                        <a class="nav-link text-white" asp-area="" asp-controller="Servis" asp-action="InternationalDebtCollection">Uluslar Arası Tahsilat</a>
+                    </li>
+                </ul>
+            </li>
+            @*Servis Controller End*@
+            @*Company Controller Start*@
+            <li class="navbarli">
+                        <a class="nav-link text-white" asp-area="" asp-controller="Company" asp-action="Index">Şirket</a>
+                <ul class="navbardropdown">
+                    <li class="navbarli">
+                        <a class="nav-link text-white" asp-area="" asp-controller="Company" asp-action="OverView">Genel Bakış</a>
+                    </li>
+                    <li class="navbarli">
+                        <a class="nav-link text-white" asp-area="" asp-controller="Company" asp-action="BuisnessPartners">İş Ortaklarımız</a>
+                    </li>
+                    <li class="navbarli">
+                        <a class="nav-link text-white" asp-area="" asp-controller="Company" asp-action="CustomerRequitCostemers">Müşteri Müşteri Kazandırır</a>
+                    </li>
+                    <li class="navbarli">
+                        <a class="nav-link text-white" asp-area="" asp-controller="Company" asp-action="AboutUs">Hakkımızda</a>
+                    </li>
+                    <li class="navbarli">
+                        <a class="nav-link text-white" asp-area="" asp-controller="Company" asp-action="SuccsessStories">Başarı Hikayeleri</a>
+                    </li>
+                    <li class="navbarli">
+                        <a class="nav-link text-white" asp-area="" asp-controller="Company" asp-action="CustomerReferences">Müşteri Referansları</a>
+                    </li>
+                </ul>
+            </li>
+            @*Company Controller End*@
+            @*News Controller Start*@
+            <li class="navbarli">
+                <a class="nav-link text-white" asp-area="" asp-controller="News" asp-action="Index">Haberler</a>
+                <ul class="navbardropdown">
+                    <li class="navbarli">
+                        <a class="nav-link text-white" asp-area="" asp-controller="News" asp-action="OverView">Genel Bakış</a>
+                    </li>
+                    <li class="navbarli">
+                        <a class="nav-link text-white" asp-area="" asp-controller="News" asp-action="LatestUpdates">Yenilikler</a>
+                    </li>
+                    <li class="navbarli">
+                        <a class="nav-link text-white" asp-area="" asp-controller="News" asp-action="Journal">Bülten</a>
+                    </li>
+                </ul>
+            </li>
+            @*News Controller End*@
+            @*Contuct Controller Start*@
+            <li class="navbarli">
+                <a class="nav-link text-white" asp-area="" asp-controller="Contuct" asp-action="Index">İletişim</a>
+            </li>
+            @*Contuct Controller End*@
+            @*Searchbar start*@
+            <li class="navbarli" id="navbaritemrightside">
+                <div class="right_area_div">
+                    @*form of searchbar + search button start*@
+                    <form class="search_form" action="/search" role="search" autocomplete="off">
+                            <input name="query" placeholder="Ara" role="textbox" aria-placeholder="Ara" aria-label="Search input" contenteditable="true" />
+                            <button class="searchbarbutton" name="search" type="submit">
+                                <img src="~/resource/icons/search-icon.png" />
+                            </button>                        
+                    </form>
+                    @*form of searchbar + search button end*@
+
+                    @*LoginButton start*@
+                    <form asp-area ="" asp-controller="Account" asp-action="Login" type="submit">
+                        <button class="girisyapbutton" >
+                            <text id="login-button-text">
+                                Giriş Yap
+                            </text>
+                        </button>
+                    </form>
+                 
+                    @*LoginButton end*@
+
+                </div>
+        
+            </li>
+            @*Searchbar End*@
+        </ul>
+        @*navbar end*@
+
+
+    </header>
+    <div class="container">
+        <main role="main" class="pb-3">
+            @RenderBody()
+        </main>
+    </div>
+
+    <footer class="border-top footer text-muted footersettings">
+        @*Footer menü start*@
+        <ul class="footerlist ">
+            @*footer ürün start*@
+            <li class="footer_categories">
+                <a class="text_decoration_under_line_on_hover nav-link text-white" asp-area="" asp-controller="Product" asp-action="Index">Ürün</a>
+                <ul class="footer_sub_list">
+                    <li class="text_decoration_under_line_on_hover">
+                        <a class="nav-link text-white" asp-area="" asp-controller="Product" asp-action="OverView">Genel Bakış</a>
+                    </li>
+                    <li class="text_decoration_under_line_on_hover">
+                        <a class="nav-link text-white" asp-area="" asp-controller="Product" asp-action="Advert">İlanlar</a>
+                    </li>
+                    <li class="text_decoration_under_line_on_hover">
+                        <a class="nav-link text-white" asp-area="" asp-controller="Product" asp-action="Warehouse">Depo</a>
+                    </li>
+                    <li class="text_decoration_under_line_on_hover">
+                        <a class="nav-link text-white" asp-area="" asp-controller="Product" asp-action="Tracking">İzleme</a>
+                    </li>
+                    <li class="text_decoration_under_line_on_hover">
+                        <a class="nav-link text-white" asp-area="" asp-controller="Product" asp-action="RatingsFeature">Değerlendirme Fonksiyonu</a>
+                    </li>
+                    <li class="text_decoration_under_line_on_hover">
+                        <a class="nav-link text-white" asp-area="" asp-controller="Product" asp-action="Freight">Yükler</a>
+                    </li>
+                    <li class="text_decoration_under_line_on_hover">
+                        <a class="nav-link text-white" asp-area="" asp-controller="Product" asp-action="VehicleSpace">Boş Araç</a>
+                    </li>
+                    <li class="text_decoration_under_line_on_hover">
+                        <a class="nav-link text-white" asp-area="" asp-controller="Product" asp-action="ClosedFreightExchange">Kapalı Yük Borsası</a>
+                    </li>
+                    <li class="text_decoration_under_line_on_hover">
+                        <a class="nav-link text-white" asp-area="" asp-controller="Product" asp-action="ShipmentTracking">Nakliye Takibi</a>
+                    </li>
+                  
+                    <li class="text_decoration_under_line_on_hover">
+                        <a class="nav-link text-white" asp-area="" asp-controller="Product" asp-action="TransportOrders">Nakliyat İşleri</a>
+                    </li>
+                    <li class="text_decoration_under_line_on_hover">
+                        <a class="nav-link text-white" asp-area="" asp-controller="Product" asp-action="FreightExchangeInterface">Yük Borsası Arayüzü</a>
+                    </li>
+                    <li class="text_decoration_under_line_on_hover">
+                        <a class="nav-link text-white" asp-area="" asp-controller="Product" asp-action="TransportOrderInterface">Nakliye Siparişleri Arayüzü</a>
+                    </li>
+                    <li class="text_decoration_under_line_on_hover">
+                        <a class="nav-link text-white" asp-area="" asp-controller="Product" asp-action="TrackingInterface">Takip Arayüzü</a>
+                    </li>
+
+                </ul>
+            </li>
+            @*footer ürün end*@
+            @*footer Hizmetler start*@
+            <li class="footer_categories">
+                <a class="nav-link text-white" asp-area="" asp-controller="Servis" asp-action="Index">Hizmetler</a>
+                <ul class ="footer_sub_list">
+                    <li class="text_decoration_under_line_on_hover">
+                        <a class="nav-link text-white" asp-area="" asp-controller="Servis" asp-action="OverView">Genel Bakış</a>
+                    </li>
+                    <li class="text_decoration_under_line_on_hover">
+                        <a class="nav-link text-white" asp-area="" asp-controller="Servis" asp-action="TransportBaroMeter">Nakliye Barometresi</a>
+                    </li>
+                    <li class="text_decoration_under_line_on_hover">
+                        <a class="nav-link text-white" asp-area="" asp-controller="Servis" asp-action="TransportDictionary">Nakliye Sözlüğü</a>
+                    </li>
+                    <li class="text_decoration_under_line_on_hover">
+                        <a class="nav-link text-white" asp-area="" asp-controller="Servis" asp-action="Security">Güvenlik</a>
+                    </li>
+                    <li class="text_decoration_under_line_on_hover">
+                        <a class="nav-link text-white" asp-area="" asp-controller="Servis" asp-action="Download">İndir</a>
+                    </li>
+                    <li class="text_decoration_under_line_on_hover">
+                        <a class="nav-link text-white" asp-area="" asp-controller="Servis" asp-action="InternationalDebtCollection">Uluslar Arası Tahsilat</a>
+                    </li>
+                </ul>
+            </li>
+            @*footer Hizmetler end*@
+            @*footer şirket start*@
+            <li class="footer_categories">
+                <a class="nav-link text-white" asp-area="" asp-controller="Company" asp-action="Index">Şirket</a>
+                <ul class="footer_sub_list">
+                    <li class="text_decoration_under_line_on_hover">
+                        <a class="nav-link text-white" asp-area="" asp-controller="Company" asp-action="OverView">Genel Bakış</a>
+                    </li>
+                    <li class="text_decoration_under_line_on_hover">
+                        <a class="nav-link text-white" asp-area="" asp-controller="Company" asp-action="BuisnessPartners">İş Ortaklarımız</a>
+                    </li>
+                    <li class="text_decoration_under_line_on_hover">
+                        <a class="nav-link text-white" asp-area="" asp-controller="Company" asp-action="CustomerRequitCostemers">Müşteri Müşteri Kazandırır</a>
+                    </li>
+                    <li class="text_decoration_under_line_on_hover">
+                        <a class="nav-link text-white" asp-area="" asp-controller="Company" asp-action="AboutUs">Hakkımızda</a>
+                    </li>
+                    <li class="text_decoration_under_line_on_hover">
+                        <a class="nav-link text-white" asp-area="" asp-controller="Company" asp-action="SuccsessStories">Başarı Hikayeleri</a>
+                    </li>
+                    <li class="text_decoration_under_line_on_hover">
+                        <a class="nav-link text-white" asp-area="" asp-controller="Company" asp-action="CustomerReferences">Müşteri Referansları</a>
+                    </li>
+                </ul>
+            </li>
+            @*footer şirket end*@
+            @*footer haberler start*@
+            <li class="footer_categories">
+                <a class="nav-link text-white" asp-area="" asp-controller="News" asp-action="Index">Haberler</a>
+                <ul class="footer_sub_list">
+                    <li class="text_decoration_under_line_on_hover">
+                        <a class="nav-link text-white" asp-area="" asp-controller="News" asp-action="OverView">Genel Bakış</a>
+                    </li>
+                    <li class="text_decoration_under_line_on_hover">
+                        <a class="nav-link text-white" asp-area="" asp-controller="News" asp-action="LatestUpdates">Yenilikler</a>
+                    </li>
+                    <li class="text_decoration_under_line_on_hover">
+                        <a class="nav-link text-white" asp-area="" asp-controller="News" asp-action="Journal">Bülten</a>
+                    </li>
+                </ul>
+            </li>
+
+            @*footer haberler end*@
+        </ul>
+        @*Footer menü end*@
+
+    <div class="border-top contuct_and_privacy">
+            <div class="center_div_50_50"style="text-align:center">
+                    <a href="https://www.facebook.com" class="social_media_icon">
+                    <img style="width:30px;height:30px;margin-top:20px;" src="~/resource/icons/facebook.png" />@*stilleri css içine yazınca hata aldı linkler değişecek*@
+                    </a>
+                    <a href="https://www.twitter.com" class="social_media_icon">
+                    <img style="width:30px;height:30px;margin-top:20px;" src="~/resource/icons/x.png" />
+                    </a>
+                    <a href="https://www.linkedin.com/" class="social_media_icon">
+                    <img style ="width:30px;height:30px;margin-top:20px;" src="~/resource/icons/linkedin.png" />
+                    </a>
+                    <a href="https://www.youtube.com/" class="social_media_icon">
+                    <img style="width:30px;height:30px;margin-top:20px;" src="~/resource/icons/youtube.png" />
+                    </a> 
+                    <a href="https://www.instagram.com/" class="social_media_icon">
+                    <img style="width:30px;height:30px;margin-top:20px;" src="~/resource/icons/instagram.jpg" />
+                    </a>
+                    <br />
+                &copy; 2023 - GNY - Tüm hakları saklıdır - <a class="text-white" asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+            </div>
+        
+        </div>
+ 
+    </footer>
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>
