@@ -1,0 +1,189 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = ENakliye
+build_property.RootNamespace = ENakliye
+build_property.ProjectDir = D:\Time to CODE\cs\ENakliye\ENakliye\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = D:\Time to CODE\cs\ENakliye\ENakliye
+build_property._RazorSourceGeneratorDebug = 
+
+[D:/Time to CODE/cs/ENakliye/ENakliye/Views/Account/ForgetPassword.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxGb3JnZXRQYXNzd29yZC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Time to CODE/cs/ENakliye/ENakliye/Views/Account/ForgetPasswordEmailSent.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxGb3JnZXRQYXNzd29yZEVtYWlsU2VudC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Time to CODE/cs/ENakliye/ENakliye/Views/Account/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxMb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Time to CODE/cs/ENakliye/ENakliye/Views/Company/AboutUs.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tcGFueVxBYm91dFVzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Time to CODE/cs/ENakliye/ENakliye/Views/Company/BuisnessPartners.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tcGFueVxCdWlzbmVzc1BhcnRuZXJzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Time to CODE/cs/ENakliye/ENakliye/Views/Company/CustomerReferences.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tcGFueVxDdXN0b21lclJlZmVyZW5jZXMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Time to CODE/cs/ENakliye/ENakliye/Views/Company/CustomerRequitCostemers.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tcGFueVxDdXN0b21lclJlcXVpdENvc3RlbWVycy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Time to CODE/cs/ENakliye/ENakliye/Views/Company/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tcGFueVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Time to CODE/cs/ENakliye/ENakliye/Views/Company/OverView.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tcGFueVxPdmVyVmlldy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Time to CODE/cs/ENakliye/ENakliye/Views/Company/SuccsessStories.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tcGFueVxTdWNjc2Vzc1N0b3JpZXMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Time to CODE/cs/ENakliye/ENakliye/Views/Contuct/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29udHVjdFxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Time to CODE/cs/ENakliye/ENakliye/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Time to CODE/cs/ENakliye/ENakliye/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Time to CODE/cs/ENakliye/ENakliye/Views/News/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTmV3c1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Time to CODE/cs/ENakliye/ENakliye/Views/News/Journal.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTmV3c1xKb3VybmFsLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Time to CODE/cs/ENakliye/ENakliye/Views/News/LatestUpdates.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTmV3c1xMYXRlc3RVcGRhdGVzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Time to CODE/cs/ENakliye/ENakliye/Views/News/OverView.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTmV3c1xPdmVyVmlldy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Time to CODE/cs/ENakliye/ENakliye/Views/Product/Advert.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFxBZHZlcnQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Time to CODE/cs/ENakliye/ENakliye/Views/Product/ClosedFreightExchange.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFxDbG9zZWRGcmVpZ2h0RXhjaGFuZ2UuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Time to CODE/cs/ENakliye/ENakliye/Views/Product/Freight.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFxGcmVpZ2h0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Time to CODE/cs/ENakliye/ENakliye/Views/Product/FreightExchangeInterface.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFxGcmVpZ2h0RXhjaGFuZ2VJbnRlcmZhY2UuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Time to CODE/cs/ENakliye/ENakliye/Views/Product/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Time to CODE/cs/ENakliye/ENakliye/Views/Product/OverView.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFxPdmVyVmlldy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Time to CODE/cs/ENakliye/ENakliye/Views/Product/RatingsFeature.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFxSYXRpbmdzRmVhdHVyZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Time to CODE/cs/ENakliye/ENakliye/Views/Product/ShipmentTracking.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFxTaGlwbWVudFRyYWNraW5nLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Time to CODE/cs/ENakliye/ENakliye/Views/Product/Tracking.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFxUcmFja2luZy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Time to CODE/cs/ENakliye/ENakliye/Views/Product/TrackingInterface.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFxUcmFja2luZ0ludGVyZmFjZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Time to CODE/cs/ENakliye/ENakliye/Views/Product/TransportOrderInterface.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFxUcmFuc3BvcnRPcmRlckludGVyZmFjZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Time to CODE/cs/ENakliye/ENakliye/Views/Product/TransportOrders.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFxUcmFuc3BvcnRPcmRlcnMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Time to CODE/cs/ENakliye/ENakliye/Views/Product/VehicleSpace.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFxWZWhpY2xlU3BhY2UuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Time to CODE/cs/ENakliye/ENakliye/Views/Product/Warehouse.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFxXYXJlaG91c2UuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Time to CODE/cs/ENakliye/ENakliye/Views/Servis/Download.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2VydmlzXERvd25sb2FkLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Time to CODE/cs/ENakliye/ENakliye/Views/Servis/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2VydmlzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Time to CODE/cs/ENakliye/ENakliye/Views/Servis/InternationalDebtCollection.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2VydmlzXEludGVybmF0aW9uYWxEZWJ0Q29sbGVjdGlvbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Time to CODE/cs/ENakliye/ENakliye/Views/Servis/OverView.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2VydmlzXE92ZXJWaWV3LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Time to CODE/cs/ENakliye/ENakliye/Views/Servis/Security.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2VydmlzXFNlY3VyaXR5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Time to CODE/cs/ENakliye/ENakliye/Views/Servis/TransportBaroMeter.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2VydmlzXFRyYW5zcG9ydEJhcm9NZXRlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Time to CODE/cs/ENakliye/ENakliye/Views/Servis/TransportDictionary.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2VydmlzXFRyYW5zcG9ydERpY3Rpb25hcnkuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Time to CODE/cs/ENakliye/ENakliye/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Time to CODE/cs/ENakliye/ENakliye/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Time to CODE/cs/ENakliye/ENakliye/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Time to CODE/cs/ENakliye/ENakliye/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Time to CODE/cs/ENakliye/ENakliye/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-qxk9jv2l3y
