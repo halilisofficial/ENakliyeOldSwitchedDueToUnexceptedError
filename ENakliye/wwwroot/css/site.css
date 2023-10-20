@@ -1,0 +1,47 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+}
+/*login page css start*/
+.center-div {
+    position: absolute;
+    background-color:transparent;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -10%);
+}
+.center_div_50_50 {
+    position: absolute;
+    background-color: transparent;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.login-page-register-button{
+    position:absolute;
+    right:0;
+}
+.login-page-text-area{
+    width:100%;
+}
+.login-page-child-divs{
+    margin-top:10px;
+}
+.text_decoration_none{
+    text-decoration:none;
+}
+/*login page css end*/

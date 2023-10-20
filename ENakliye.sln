@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34031.279
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ENakliye", "ENakliye\ENakliye.csproj", "{8D6EF557-F8B3-4960-AEE6-22A55CB55671}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8D6EF557-F8B3-4960-AEE6-22A55CB55671}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8D6EF557-F8B3-4960-AEE6-22A55CB55671}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8D6EF557-F8B3-4960-AEE6-22A55CB55671}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8D6EF557-F8B3-4960-AEE6-22A55CB55671}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0D173552-6B1A-4990-923A-D95F91C3A554}
+	EndGlobalSection
+EndGlobal
