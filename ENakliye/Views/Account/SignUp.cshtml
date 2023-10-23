@@ -1,0 +1,48 @@
+﻿@{
+    Layout = null;/*shared>layout'u iptal eder*/
+    ViewData["Title"] = "Kayıt Ol";
+}
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>@ViewData["Title"] - GNY</title>
+    <link href="~/css/site.css" rel="stylesheet" />
+</head>
+<body>
+
+    @using (Html.BeginForm("SignUp", "Account", FormMethod.Post))
+    {
+        @*general parent start *@
+        <div class="center-div">
+            <h1>GNY Kayıt Ol</h1>
+            @*e-mail start *@
+            <div class="login-page-child-divs"> 
+                <label for="UserName">E-mail adresi *</label>
+                <br>
+                <input class="login-page-text-area" type="text" required id="UserName" name="UserName" />
+            </div>
+            @*e-mail  end *@
+            @*password  start *@
+            <div class="login-page-child-divs">
+                <label for="Password">Şifre *</label>
+                <br>
+                <input class="login-page-text-area" type="Password" required id="Password" name="Password" />
+            </div>
+            @*password end *@
+          
+            @*buttons start*@
+            <div class="login-page-child-divs">
+
+                @*register button start *@
+                <input class="login-page-register-button" type="submit" value="Kayıt Ol" />
+                @*register button end *@
+            </div>
+            @*buttons end*@
+
+
+        </div>
+        @*general parent end *@
+    }
+</body>
+</html>
+
