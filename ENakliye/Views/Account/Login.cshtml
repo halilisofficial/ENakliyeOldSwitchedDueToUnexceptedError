@@ -14,7 +14,7 @@
     {
         @*general parent start *@
         <div class="center-div">
-            <h1>GNY Giriş</h1>
+            <h1>GNY Giriş Yap</h1>
                 @*e-mail start *@
             <div class="login-page-child-divs">
                 <label for="UserName">E-mail adresi *</label>
@@ -37,10 +37,12 @@
             @*buttons start*@
             <div class="login-page-child-divs">
                 @*login button start *@
-                <input type="submit" value="Giriş Yap" />
+                <input type="submit" asp-area="" asp-controller="Home" asp-action="Index" value="Giriş Yap" />
                 @*login button end *@
                 @*register button start *@
-                <input class="login-page-register-button" type="submit" value="Kayıt Ol" />
+
+                @*formnovalidate required inputları görmezden gelmede kullanılır*@
+                <input class="login-page-register-button" formnovalidate asp-area="" asp-controller="Account" asp-action="SignUp" type="submit" value="Kayıt Ol" />
                 @*register button end *@
             </div>
             @*buttons end*@
