@@ -12,6 +12,11 @@ namespace ENakliye.Controllers
         {
             return View();
         }
+
+        public ActionResult SignUp()
+        {
+            return View();
+        }
         public ActionResult ForgetPassword()
         {
             return View();
