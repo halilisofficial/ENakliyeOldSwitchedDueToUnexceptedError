@@ -1,25 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Time to CODE\\cs\\ENakliye\\ENakliye\\ENakliye.csproj": {}
+    "D:\\ENakliye\\ENakliye\\ENakliye.csproj": {}
   },
   "projects": {
-    "D:\\Time to CODE\\cs\\ENakliye\\ENakliye\\ENakliye.csproj": {
+    "D:\\ENakliye\\ENakliye\\ENakliye.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Time to CODE\\cs\\ENakliye\\ENakliye\\ENakliye.csproj",
+        "projectUniqueName": "D:\\ENakliye\\ENakliye\\ENakliye.csproj",
         "projectName": "ENakliye",
-        "projectPath": "D:\\Time to CODE\\cs\\ENakliye\\ENakliye\\ENakliye.csproj",
-        "packagesPath": "C:\\Users\\casper\\.nuget\\packages\\",
-        "outputPath": "D:\\Time to CODE\\cs\\ENakliye\\ENakliye\\obj\\",
+        "projectPath": "D:\\ENakliye\\ENakliye\\ENakliye.csproj",
+        "packagesPath": "C:\\Users\\bahad\\.nuget\\packages\\",
+        "outputPath": "D:\\ENakliye\\ENakliye\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\casper\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 18.1.config",
+          "C:\\Users\\bahad\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
