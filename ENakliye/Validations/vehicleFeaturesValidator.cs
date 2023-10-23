@@ -1,7 +1,9 @@
-﻿using FluentValidation;
-using ViewModelDTO.Models.ViewModels;
+﻿
+/*//proje ile uyumu sağlanana kadar yorum satırına alınmıştır
+using FluentValidation;
+using ENakliye.Models.ViewModels;
 
-namespace ViewModelDTO.Validations
+namespace ENakliye.Validations
 {
     public class vehicleFeaturesValidator: AbstractValidator<vehicleFeaturesCreateVM>
     {
@@ -15,3 +17,4 @@ namespace ViewModelDTO.Validations
         }
     }
 }
+*/
