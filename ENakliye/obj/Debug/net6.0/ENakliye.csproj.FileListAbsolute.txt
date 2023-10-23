@@ -28,3 +28,10 @@ D:\Time to CODE\cs\ENakliye\ENakliye\obj\Debug\net6.0\refint\ENakliye.dll
 D:\Time to CODE\cs\ENakliye\ENakliye\obj\Debug\net6.0\ENakliye.pdb
 D:\Time to CODE\cs\ENakliye\ENakliye\obj\Debug\net6.0\ENakliye.genruntimeconfig.cache
 D:\Time to CODE\cs\ENakliye\ENakliye\obj\Debug\net6.0\ref\ENakliye.dll
+D:\Time to CODE\cs\ENakliye\ENakliye\obj\Debug\net6.0\ENakliye.csproj.AssemblyReference.cache
+D:\Time to CODE\cs\ENakliye\ENakliye\obj\Debug\net6.0\ENakliye.MvcApplicationPartsAssemblyInfo.cs
+D:\Time to CODE\cs\ENakliye\ENakliye\bin\Debug\net6.0\libman.json
+D:\Time to CODE\cs\ENakliye\ENakliye\bin\Debug\net6.0\FluentValidation.dll
+D:\Time to CODE\cs\ENakliye\ENakliye\bin\Debug\net6.0\FluentValidation.AspNetCore.dll
+D:\Time to CODE\cs\ENakliye\ENakliye\bin\Debug\net6.0\FluentValidation.DependencyInjectionExtensions.dll
+D:\Time to CODE\cs\ENakliye\ENakliye\obj\Debug\net6.0\ENakliye.csproj.CopyComplete

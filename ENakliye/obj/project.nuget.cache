@@ -1,8 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "vqrdAC7Bd74n0S9ax98yGyPmFenaY2amJNG0uVs6SpsSx3eknCYa+tOv692PXQTWj7wZds2UBGjG+MXOM36YJg==",
+  "dgSpecHash": "okDysqp22FcvSNtcIZvJ+o2SHGw+2m3OUj717wGVlvupwR+t5ypgSHfUnsUDQqJLfUgapeN+sENeBtQzdZMknA==",
   "success": true,
   "projectFilePath": "D:\\Time to CODE\\cs\\ENakliye\\ENakliye\\ENakliye.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\casper\\.nuget\\packages\\fluentvalidation\\11.5.1\\fluentvalidation.11.5.1.nupkg.sha512",
+    "C:\\Users\\casper\\.nuget\\packages\\fluentvalidation.aspnetcore\\11.3.0\\fluentvalidation.aspnetcore.11.3.0.nupkg.sha512",
+    "C:\\Users\\casper\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\11.5.1\\fluentvalidation.dependencyinjectionextensions.11.5.1.nupkg.sha512",
+    "C:\\Users\\casper\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\2.1.0\\microsoft.extensions.dependencyinjection.abstractions.2.1.0.nupkg.sha512"
+  ],
   "logs": []
 }
