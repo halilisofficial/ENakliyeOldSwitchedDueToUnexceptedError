@@ -35,3 +35,13 @@ D:\Time to CODE\cs\ENakliye\ENakliye\bin\Debug\net6.0\FluentValidation.dll
 D:\Time to CODE\cs\ENakliye\ENakliye\bin\Debug\net6.0\FluentValidation.AspNetCore.dll
 D:\Time to CODE\cs\ENakliye\ENakliye\bin\Debug\net6.0\FluentValidation.DependencyInjectionExtensions.dll
 D:\Time to CODE\cs\ENakliye\ENakliye\obj\Debug\net6.0\ENakliye.csproj.CopyComplete
+D:\Time to CODE\cs\ENakliye\ENakliye\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+D:\Time to CODE\cs\ENakliye\ENakliye\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\Time to CODE\cs\ENakliye\ENakliye\bin\Debug\net6.0\Microsoft.Extensions.Caching.Abstractions.dll
+D:\Time to CODE\cs\ENakliye\ENakliye\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+D:\Time to CODE\cs\ENakliye\ENakliye\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
+D:\Time to CODE\cs\ENakliye\ENakliye\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\Time to CODE\cs\ENakliye\ENakliye\bin\Debug\net6.0\Microsoft.Extensions.Logging.dll
+D:\Time to CODE\cs\ENakliye\ENakliye\bin\Debug\net6.0\Microsoft.Extensions.Logging.Abstractions.dll
+D:\Time to CODE\cs\ENakliye\ENakliye\bin\Debug\net6.0\Microsoft.Extensions.Options.dll
+D:\Time to CODE\cs\ENakliye\ENakliye\bin\Debug\net6.0\Microsoft.Extensions.Primitives.dll
