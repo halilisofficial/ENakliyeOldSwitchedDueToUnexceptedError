@@ -151,13 +151,22 @@
                     @*LoginButton start*@
                     <form asp-area ="" asp-controller="Account" asp-action="Login" type="submit">
                         <button class="girisyapbutton" >
-                            <text id="login-button-text">
+                            <text class="login-button-text">
                                 Giriş Yap
                             </text>
                         </button>
                     </form>
-                 
                     @*LoginButton end*@
+
+                    @*registerButton start*@
+                    <form asp-area="" asp-controller="Account" asp-action="SignUp" type="submit">
+                        <button class="girisyapbutton">
+                            <text class="login-button-text">
+                                Üye Ol
+                            </text>
+                        </button>
+                    </form>
+                    @*registerButton end*@
 
                 </div>
         

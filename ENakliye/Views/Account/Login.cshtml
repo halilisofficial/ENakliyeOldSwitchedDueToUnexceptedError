@@ -36,13 +36,8 @@
             @*buttons start*@
             <div class="login-page-child-divs">
                 @*login button start *@
-                <input type="submit" asp-area="" asp-controller="Home" asp-action="Index" value="Giriş Yap" />
+                <input class="login-page-register-button" type="submit" asp-area="" asp-controller="Home" asp-action="Index" value="Giriş Yap" />
                 @*login button end *@
-                @*register button start *@
-
-                @*formnovalidate required inputları görmezden gelmede kullanılır*@
-                <input class="login-page-register-button" formnovalidate asp-area="" asp-controller="Account" asp-action="SignUp" type="submit" value="Kayıt Ol" />
-                @*register button end *@
             </div>
             @*buttons end*@
 

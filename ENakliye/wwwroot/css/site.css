@@ -31,6 +31,7 @@ body {
     left: 50%;
     transform: translate(-50%, -50%);
 }
+
 .login-page-register-button{
     position:absolute;
     right:0;
@@ -39,7 +40,7 @@ body {
     width:100%;
 }
 .login-page-child-divs{
-    margin-top:10px;
+    margin-top: 10px;
 }
 .text_decoration_none{
     text-decoration:none;

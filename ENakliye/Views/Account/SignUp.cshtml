@@ -12,36 +12,12 @@
 
 
     <form asp-area="" asp-controller="Account" asp-action="SignUp" method="post">
-        @*general parent start *@
-        <div class="center-div">
-            <h1>GNY Kayıt Ol</h1>
-            @*e-mail start *@
-            <div class="login-page-child-divs"> 
-                <label for="UserName">E-mail adresi *</label>
-                <br>
-                <input class="login-page-text-area" type="text" required id="UserName" name="UserName" />
-            </div>
-            @*e-mail  end *@
-            @*password  start *@
-            <div class="login-page-child-divs">
-                <label for="Password">Şifre *</label>
-                <br>
-                <input class="login-page-text-area" type="Password" required id="Password" name="Password" />
-            </div>
-            @*password end *@
-          
-            @*buttons start*@
-            <div class="login-page-child-divs">
-
-                @*register button start *@
-                <input class="login-page-register-button" type="submit" value="Kayıt Ol" />
-                @*register button end *@
-            </div>
-            @*buttons end*@
-
-
+        <h1>GNY Sistemine Üye Ol</h1>
+        <div class="center-div" style="width:80%;">
+           <p>
+               GNY sistemine üye olmak için falan filan evraklarını falan filan adresine gönderiniz
+           </p>
         </div>
-        @*general parent end *@
     </form>
 </body>
 </html>
