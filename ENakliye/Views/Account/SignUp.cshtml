@@ -10,8 +10,8 @@
 </head>
 <body>
 
-    @using (Html.BeginForm("SignUp", "Account", FormMethod.Post))
-    {
+
+    <form asp-area="" asp-controller="Account" asp-action="SignUp" method="post">
         @*general parent start *@
         <div class="center-div">
             <h1>GNY Kayıt Ol</h1>
@@ -42,7 +42,7 @@
 
         </div>
         @*general parent end *@
-    }
+    </form>
 </body>
 </html>
 

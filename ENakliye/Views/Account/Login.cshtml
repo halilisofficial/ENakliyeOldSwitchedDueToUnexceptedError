@@ -9,9 +9,8 @@
     <link href="~/css/site.css" rel="stylesheet" />
     </head>
     <body>
-
-    @using (Html.BeginForm("Login", "Account", FormMethod.Post))
-    {
+        
+    <form asp-area="" asp-controller="Account" asp-action="Login" method="post">
         @*general parent start *@
         <div class="center-div">
             <h1>GNY Giriş Yap</h1>
@@ -50,7 +49,7 @@
 
         </div>
         @*general parent end *@
-    }
+    </form>
     </body>
 </html>
 
