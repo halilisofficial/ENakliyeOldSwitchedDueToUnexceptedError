@@ -1,9 +1,29 @@
-document.getElementById("searchButton").addEventListener("click", function textValidation() {
+document.getElementById("searchButton").addEventListener("click", function () {
     var searchInput = document.getElementById("searchInput").value;
-    if (searchInput.trim() === "") {//search bara boþ deðer girilirse
+
+    // XSS saldýrýlarýný engellemek için kullanýcý giriþini escape eder.
+    var sanitizedInput = escapeHtml(searchInput);
+
+    if (sanitizedInput.trim() === "") {
+        // Arama çubuðu boþsa iþlem yapma
         return false;
     } else {
-        // girilen deðer için arama iþlemi
+        // Sanitize edilmiþ deðer için arama iþlemi
         return true;
     }
 });
+
+// Bu iþlev XSS saldýrýlarýný önlemek için kullanýcý girdisini temizler.
+function escapeHtml(text) {
+    var map = {
+        '&': '&amp;',
+        '<': '&lt;',
+        '>': '&gt;',
+        '"': '&quot;',
+        "'": '&#039;'
+    };
+
+    return text.replace(/[&<>"']/g, function (m) {
+        return map[m];
+    });
+}
