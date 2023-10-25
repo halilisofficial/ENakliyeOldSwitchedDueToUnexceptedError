@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "n0cd+YhnkiToUxU6xoSsLwdFln+SDYm0YV5xvTVPq5Q=",
+  "Hash": "E4lTzwDhbh2IZdwpoONRZY6TN3Q/T0n/vUWQrwryPH0=",
   "Source": "ENakliye",
   "BasePath": "_content/ENakliye",
   "Mode": "Default",
@@ -83,6 +83,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "D:\\Time to CODE\\cs\\ENakliye\\ENakliye\\wwwroot\\js\\search.js",
+      "SourceId": "ENakliye",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Time to CODE\\cs\\ENakliye\\ENakliye\\wwwroot\\",
+      "BasePath": "_content/ENakliye",
+      "RelativePath": "js/search.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\search.js"
     },
     {
       "Identity": "D:\\Time to CODE\\cs\\ENakliye\\ENakliye\\wwwroot\\js\\site.js",

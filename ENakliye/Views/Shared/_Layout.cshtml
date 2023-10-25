@@ -8,6 +8,9 @@
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
     <link rel="stylesheet" href="~/ENakliye.styles.css" asp-append-version="true" />
     <link href="~\enakliye\views\shared\_layout.cshtml.css" rel="stylesheet" />
+    <script src="~/js/search.js" defer></script>
+    @*
+    <script> etiketinde kullanılan defer özelliği, JavaScript dosyasının indirilip işlenmesini ertelemeye yarayan bir özelliktir. defer, tarayıcıya JavaScript dosyasının sayfanın tamamı işlenmeden önce indirilmesini ve çalıştırılmasını beklemesini söyler. Bu, JavaScript dosyalarının sayfa yüklenme sürecini engellemeden daha etkili bir şekilde yönetilmesini sağlar.*@
 </head>
 <body>
     <header>
@@ -139,12 +142,12 @@
             @*Searchbar start*@
             <li class="navbarli" id="navbaritemrightside">
                 <div class="right_area_div">
-                    @*form of searchbar + search button start*@
-                    <form class="search_form" action="/search" role="search" autocomplete="off">
-                            <input name="query" placeholder="Ara" role="textbox" aria-placeholder="Ara" aria-label="Search input" contenteditable="true" />
-                            <button class="searchbarbutton" name="search" type="submit">
+                     @*form of searchbar + search button start*@
+                    <form class="search_form" onsubmit="textValidation()" role="search" autocomplete="off">
+                        <input id="searchInput" name="query" placeholder="Ara" role="textbox" aria-placeholder="Ara" aria-label="Search input" contenteditable="true" />
+                        <button id="searchButton"  class="searchbarbutton" action="~/js/search.js" name="search" type="submit">
                                 <img src="~/resource/icons/search-icon.png" />
-                            </button>                        
+                        </button>                        
                     </form>
                     @*form of searchbar + search button end*@
 
