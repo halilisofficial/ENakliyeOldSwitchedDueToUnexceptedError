@@ -7,7 +7,6 @@
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
     <link rel="stylesheet" href="~/ENakliye.styles.css" asp-append-version="true" />
-    <link href="~\enakliye\views\shared\_layout.cshtml.css" rel="stylesheet" />
     <script src="~/js/search.js" defer></script>
     @*
     <script> etiketinde kullanılan defer özelliği, JavaScript dosyasının indirilip işlenmesini ertelemeye yarayan bir özelliktir. defer, tarayıcıya JavaScript dosyasının sayfanın tamamı işlenmeden önce indirilmesini ve çalıştırılmasını beklemesini söyler. Bu, JavaScript dosyalarının sayfa yüklenme sürecini engellemeden daha etkili bir şekilde yönetilmesini sağlar.*@
@@ -183,6 +182,14 @@
     <div class="container">
         <main role="main" class="pb-3">
             @RenderBody()
+            @*position:absolute;bottom:0 olan footerdan kurtulmak için brler eklenmiştir
+            footer bu brlerin tam üstüne üstüne gelip sitedeki normal elementlerin görünmesini engellemiyor*@
+            @*footer br start*@
+            @for (byte i = 0; i < 26; i++)
+            {
+                <br />
+            }
+            @*footer br end*@
         </main>
     </div>
 
@@ -308,21 +315,22 @@
         @*Footer menü end*@
 
     <div class="border-top contuct_and_privacy">
-            <div class="center_div_50_50"style="text-align:center">
+            <div class="center_div_50_50" style="text-align:center">
+                
                     <a href="https://www.facebook.com" class="social_media_icon">
-                    <img style="width:30px;height:30px;margin-top:20px;" src="~/resource/icons/facebook.png" />@*stilleri css içine yazınca hata aldı linkler değişecek*@
+                    <img class="layout_footer_social_media_icon" src="~/resource/icons/facebook.png" />@*stilleri css içine yazınca hata aldı linkler değişecek*@
                     </a>
                     <a href="https://www.twitter.com" class="social_media_icon">
-                    <img style="width:30px;height:30px;margin-top:20px;" src="~/resource/icons/x.png" />
+                    <img class="layout_footer_social_media_icon" src="~/resource/icons/x.png" />
                     </a>
                     <a href="https://www.linkedin.com/" class="social_media_icon">
-                    <img style ="width:30px;height:30px;margin-top:20px;" src="~/resource/icons/linkedin.png" />
+                    <img class="layout_footer_social_media_icon" src="~/resource/icons/linkedin.png" />
                     </a>
                     <a href="https://www.youtube.com/" class="social_media_icon">
-                    <img style="width:30px;height:30px;margin-top:20px;" src="~/resource/icons/youtube.png" />
+                    <img class="layout_footer_social_media_icon" src="~/resource/icons/youtube.png" />
                     </a> 
                     <a href="https://www.instagram.com/" class="social_media_icon">
-                    <img style="width:30px;height:30px;margin-top:20px;" src="~/resource/icons/instagram.jpg" />
+                    <img class="layout_footer_social_media_icon" src="~/resource/icons/instagram.jpg" />
                     </a>
                     <br />
                 &copy; 2023 - GNY - Tüm hakları saklıdır - <a class="text-white" asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
