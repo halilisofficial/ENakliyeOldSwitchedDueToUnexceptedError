@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "j2xpTm7fyDjyD4Cvz5Rty1PqelG/er9StH2V9PM5Rf8=",
+  "Hash": "PzbKUUIs/lZ5Nw89lgMIj+9lP1pG8ojmL9rwHJkJrnU=",
   "Source": "ENakliye",
   "BasePath": "_content/ENakliye",
   "Mode": "Default",
@@ -1188,6 +1188,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\resource\\icons\\youtube.png"
+    },
+    {
+      "Identity": "D:\\ENakliye\\ENakliye\\wwwroot\\resource\\images\\hakkimizda.jpg",
+      "SourceId": "ENakliye",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\ENakliye\\ENakliye\\wwwroot\\",
+      "BasePath": "_content/ENakliye",
+      "RelativePath": "resource/images/hakkimizda.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\resource\\images\\hakkimizda.jpg"
     }
   ]
 }

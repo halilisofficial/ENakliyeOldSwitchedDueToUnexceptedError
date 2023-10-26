@@ -138,8 +138,8 @@ text-decoration: none !important;
     align-self: center;
     border: none;
     background-color: #f3f3f3;
-    border-radius: 5%;
-    margin-left:10px;
+    border-radius: 5px;
+    margin-left: 10px;
 }
 
 .login-button-text[b-qxk9jv2l3y] { 
@@ -196,7 +196,5 @@ text-decoration: none !important;
     margin-left: 10px;
     text-decoration: none;
 }
-
-
 /*social media icon end*/
     /*footer end*/
