@@ -1,61 +1,75 @@
 ﻿@{
     ViewData["Title"] = "GNY";
 }
-
-<div class="text-center">
-    <h1 class="display-4">GNY</h1>
-    <p>Anasayfa</p>
+@*Top İnformation Div start*@ 
+<div contenteditable="false" class="home_index_top_information_main_div">
+    @*Center div start*@
+    <div class="text-center center_div_50_50">
+        @*company name paragraph start*@
+        <p class="home_index_top_information_company_name_p">
+            GNY Pazarı
+       </p>
+        @*company name paragraph end*@
+        @*company catchword paragraph start*@
+        <p class="home_index_top_information_company_catchword_p">
+            Türkiye’nin yenilikçi yük borsası
+       </p>
+        @*company catchword paragraph end*@
+        @*bottom buttons div start*@
+        <div class="home_index_top_information_buttons_div">
+            @*form login start*@
+            <form asp-area="" asp-controller="Account" asp-action="Login" type="submit">
+                <button class="home_index_top_information_buttons" style="margin-right:20px;">
+                    <text class="home_index_top_information_button_text_color">
+                        Giriş Yap
+                    </text>
+                </button>
+            </form>
+            @*form login end*@
+            @*form sign up start*@
+            <form asp-area="" asp-controller="Account" asp-action="SignUp" type="submit">
+                <button class="home_index_top_information_buttons" style="margin-left:20px;">
+                    <text class="home_index_top_information_button_text_color">
+                        Üye Ol
+                    </text>
+                </button>
+            </form>
+            @*form signup end*@
+       </div>
+        @*bottom buttons div end*@
+    </div>
+    @*Center div end*@
 </div>
+@*Top İnformation Div end*@
 
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
+
+
+
+
+<div class="home_index_about_us_section_main_div">
+    <div class="home_index_about_us_section_chield_divs">
+        @*url:
+        https://www.google.com/search?q=logistic+firm+car&tbm=isch&ved=2ahUKEwi7r-XstJOCAxUFgv0HHYijBK4Q2-cCegQIABAA&oq=logistic+firm+car&gs_lcp=CgNpbWcQAzoFCAAQgAQ6BggAEAgQHjoECAAQHjoHCAAQGBCABDoJCAAQGBCABBAKUO8NWLYfYNUgaABwAHgAgAF_iAGYCJIBAzAuOZgBAKABAaoBC2d3cy13aXotaW1nwAEB&sclient=img&ei=DzM6ZfvrBoWE9u8PiMeS8Ao&bih=771&biw=850#imgrc=Fp_UuHtoDya3aM
+        *@
+        <img src="~/resource/images/hakkimizda.jpg" class="home_index_about_us_section_image"/>
+    </div>
+    <div class="home_index_about_us_section_chield_divs">
+        <h2 style="font-weight:bold">
+            Hakkımızda - GNY
+        </h2>
+        <p>
+            Nakliye borsasına sahip dijital bir pazar yeri olarak, üretim ve ticaret şirketlerinin yanı sıra nakliye şirketleri ve taşıyıcıları karayolu yük taşımacılığında nakliye siparişlerinin tedarikinde destekliyoruz. Hedefimiz, müşterilerimizin lojistik süreçlerini optimize etmek ve bu sayede zaman ve para tasarrufu yapmalarını sağlamak.
+        </p>
+        <ul>
+            <li>
+                Günlük 1 milyona kadar uluslararası nakliye ve yükleme teklifleri
+            </li>
+            <li>
+                Karayolu mal taşımacılığında + 189.000 takip edilebilir kamyon
+            </li>
+            <li>
+                Tarayıcı üzerinden kolay giriş
+            </li>
+        </ul>
+    </div>
+</div>
