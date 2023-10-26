@@ -76,6 +76,22 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
+[D:/ENakliye/ENakliye/Views/Home/_PartialViewFreightExchange.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxfUGFydGlhbFZpZXdGcmVpZ2h0RXhjaGFuZ2UuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ENakliye/ENakliye/Views/Home/_PartialViewInterfaces.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxfUGFydGlhbFZpZXdJbnRlcmZhY2VzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ENakliye/ENakliye/Views/Home/_PartialViewTransportBarometer.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxfUGFydGlhbFZpZXdUcmFuc3BvcnRCYXJvbWV0ZXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ENakliye/ENakliye/Views/Home/_PartialViewValueAddedServices.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxfUGFydGlhbFZpZXdWYWx1ZUFkZGVkU2VydmljZXMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/ENakliye/ENakliye/Views/News/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTmV3c1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 

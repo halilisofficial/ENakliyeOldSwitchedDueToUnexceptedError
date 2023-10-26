@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "PzbKUUIs/lZ5Nw89lgMIj+9lP1pG8ojmL9rwHJkJrnU=",
+  "Hash": "iQQAc6O5KRZ16ajWS46owYXzk9Sge0xBKEPHYaMaEKo=",
   "Source": "ENakliye",
   "BasePath": "_content/ENakliye",
   "Mode": "Default",
@@ -83,6 +83,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "D:\\ENakliye\\ENakliye\\wwwroot\\js\\partialViewManager.js",
+      "SourceId": "ENakliye",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\ENakliye\\ENakliye\\wwwroot\\",
+      "BasePath": "_content/ENakliye",
+      "RelativePath": "js/partialViewManager.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\partialViewManager.js"
     },
     {
       "Identity": "D:\\ENakliye\\ENakliye\\wwwroot\\js\\search.js",
