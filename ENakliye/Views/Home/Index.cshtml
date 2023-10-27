@@ -19,7 +19,7 @@
         <div class="home_index_top_information_buttons_div">
             @*form login start*@
             <form asp-area="" asp-controller="Account" asp-action="Login" type="submit">
-                <button class="home_index_top_information_buttons" style="margin-right:20px;">
+                <button class="home_index_top_information_buttons" style="margin-right:20px; width:140px;">
                     <text class="home_index_top_information_button_text_color">
                         Giriş Yap
                     </text>
@@ -28,7 +28,7 @@
             @*form login end*@
             @*form sign up start*@
             <form asp-area="" asp-controller="Account" asp-action="SignUp" type="submit">
-                <button class="home_index_top_information_buttons" style="margin-left:20px;">
+                <button class="home_index_top_information_buttons" style="margin-left:20px; width:140px;">
                     <text class="home_index_top_information_button_text_color">
                         Üye Ol
                     </text>
@@ -98,7 +98,33 @@
     @*unordered list end*@
     @*content div start*@
     <div id="home_best_services_changable_content_div" class="home_index_best_services_section_content_div">
-        
+        <div class="display_flex">
+            <div class="width_50">
+                <h2 class="font_weight_bold">Yük Borsası</h2>
+                <ul>
+                    <li>
+                        GNY yük borsası şirketlerin hızla ve kolayca yük teklifleri bulmasına olanak sağlıyor.
+                    </li>
+                    <li>
+                        Arz ve talep arasındaki bağlantı sayesinde boş yolculuklar önleniyor ve araç doluluğu artırılıyor.
+                    </li>
+                    <li>
+                        Road Freight çözümü, entegre rota planlaması ve dokümanları doğrudan platform üzerinden alıp verme olanağı sayesinde lojistik sektörü için konforlu ve verimli bir çözüm sunuyor.
+                    </li>
+                </ul>
+
+                <form asp-area="" asp-controller="Product" asp-action="Freight" type="submit">
+                    <button class="home_index_top_information_buttons">
+                        <text class="home_index_top_information_button_text_color">
+                            Yük Borsasına git
+                        </text>
+                    </button>
+                </form>
+            </div>
+            <div class="width_50">
+                resim buraya
+            </div>
+        </div>
     </div>
     @*content div end*@
 </div>
