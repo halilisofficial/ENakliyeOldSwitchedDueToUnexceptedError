@@ -25,6 +25,9 @@ html {
 .width_100{
     width:100%;
 }
+.width_33{
+    width:33%;
+}
 width_auto {
     width: auto;
 }
@@ -169,3 +172,15 @@ body {
 }
 /*now try section end*/
 /*Home index css end*/
+
+/*news css start*/
+.news_card {
+   width: 300px; height: 400px;
+}
+.news_form_button {
+  background-color: transparent; border: solid 1px; display: flex; flex-direction: column; align-items: center; justify-content: flex-start;
+}
+.news_h_p_separator {
+    width: 80%; height: 2px; background-color: black; border: none; margin: 10px 0;
+}
+/*news css end*/
