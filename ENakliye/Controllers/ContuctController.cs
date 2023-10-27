@@ -8,5 +8,9 @@ namespace ENakliye.Controllers
         {
             return View();
         }
+        public IActionResult LoadPartialView(string partialViewName)
+        {
+            return PartialView(partialViewName);
+        }
     }
 }

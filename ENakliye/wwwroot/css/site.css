@@ -22,6 +22,9 @@ html {
 .width_50 {
     width: 50% !important;
 }
+.width_100{
+    width:100%;
+}
 width_auto {
     width: auto;
 }
@@ -132,8 +135,9 @@ body {
 
 /*home index best services start*/
 .home_index_best_services_section_list_items {
-  width:25%;
-  list-style:none;
+    width: 25%;
+    list-style: none;
+    cursor: pointer;
 }
     .home_index_best_services_section_list_items:hover{
         text-decoration:underline;

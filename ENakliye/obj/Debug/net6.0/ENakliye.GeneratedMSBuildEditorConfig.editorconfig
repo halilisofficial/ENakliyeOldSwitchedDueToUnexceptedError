@@ -68,6 +68,18 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29udHVjdFxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[D:/ENakliye/ENakliye/Views/Contuct/_PartialViewCompanyCommunication.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29udHVjdFxfUGFydGlhbFZpZXdDb21wYW55Q29tbXVuaWNhdGlvbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ENakliye/ENakliye/Views/Contuct/_PartialViewCustomerCare.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29udHVjdFxfUGFydGlhbFZpZXdDdXN0b21lckNhcmUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ENakliye/ENakliye/Views/Contuct/_PartialViewInternationalDebtCollection.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29udHVjdFxfUGFydGlhbFZpZXdJbnRlcm5hdGlvbmFsRGVidENvbGxlY3Rpb24uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/ENakliye/ENakliye/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
