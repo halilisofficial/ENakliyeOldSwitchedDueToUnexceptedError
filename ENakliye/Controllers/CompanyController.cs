@@ -12,10 +12,11 @@ namespace ENakliye.Controllers
         {
             return View("Index");
         }
+        /*şirket politikasının bunu destekleyeceği bilinmediğinden geçici süreliğine kaldırılmıştır
         public IActionResult CustomerRequitCostemers()// müşteri müşteri kazandırır
         {
             return View();
-        }
+        }*/
         public IActionResult BuisnessPartners()//İş Ortaklarımız
         {
             return View();
