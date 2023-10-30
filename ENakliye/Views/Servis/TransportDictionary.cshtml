@@ -1,6 +1,32 @@
 ﻿@{
     ViewData["Title"] = "Nakliye Sözlüğü";
 }
-<h1>@ViewData["Title"]</h1>
-
-<p>Nakliye sözlüğü sayfası</p>
+@*header of page start*@
+<div class="home_index_top_information_main_div home_index_element_background_color color_white" style="height:200px;">
+    <div class="center_div_50_50">
+        <h1 class="text-center text_align_center">
+            Nakliye Sözlüğü
+        </h1>
+    </div>
+</div>
+@*header of page end*@
+@*page content start*@
+<div class="home_index_customer_section_main_div margin_between_sections display_block height_auto">
+    <div class="display_flex">
+        @*unordered list start*@
+        <ul class="home_index_best_services_section_unordered_list">
+            <li class="home_index_best_services_section_list_items ">
+                <a class="nav-link text-black" onclick="loadPartialView('/Servis/LoadPartialView?partialViewName=TransportDictionaryPartialViews/_PartialViewA','#service_transport_dictionary_changable_content')">A</a>
+            </li>
+            <li class="home_index_best_services_section_list_items">
+                <a class="nav-link text-black" onclick="loadPartialView('/Servis/LoadPartialView?partialViewName=TransportDictionaryPartialViews/_PartialViewB','#service_transport_dictionary_changable_content')">B</a>
+            </li>
+            <li class="home_index_best_services_section_list_items">
+                <a class="nav-link text-black" onclick="loadPartialView('/Servis/LoadPartialView?partialViewName=TransportDictionaryPartialViews/_PartialViewC','#service_transport_dictionary_changable_content')">C</a>
+            </li>
+        </ul>
+        @*unordered list end*@
+    </div>
+    <div id="service_transport_dictionary_changable_content">
+    </div>
+</div>

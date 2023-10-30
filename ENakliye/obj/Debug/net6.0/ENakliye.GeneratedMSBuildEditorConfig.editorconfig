@@ -196,6 +196,18 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2VydmlzXFRyYW5zcG9ydERpY3Rpb25hcnkuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
+[D:/ENakliye/ENakliye/Views/Servis/TransportDictionaryPartialViews/_PartialViewA.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2VydmlzXFRyYW5zcG9ydERpY3Rpb25hcnlQYXJ0aWFsVmlld3NcX1BhcnRpYWxWaWV3QS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ENakliye/ENakliye/Views/Servis/TransportDictionaryPartialViews/_PartialViewB.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2VydmlzXFRyYW5zcG9ydERpY3Rpb25hcnlQYXJ0aWFsVmlld3NcX1BhcnRpYWxWaWV3Qi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ENakliye/ENakliye/Views/Servis/TransportDictionaryPartialViews/_PartialViewC.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2VydmlzXFRyYW5zcG9ydERpY3Rpb25hcnlQYXJ0aWFsVmlld3NcX1BhcnRpYWxWaWV3Qy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/ENakliye/ENakliye/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
