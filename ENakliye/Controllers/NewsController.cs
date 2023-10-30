@@ -12,10 +12,12 @@ namespace ENakliye.Controllers
         {
             return View("Index");
         }
-        public IActionResult LatestUpdates()//Yenilikler
+      /* buraya ne yazılacağı belli olana kadar askıya alınmıştır.
+         public IActionResult LatestUpdates()//Yenilikler
         {
             return View();
         }
+      */
         public IActionResult Journal()//Bülten
         {
             return View();
