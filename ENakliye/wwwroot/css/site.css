@@ -19,23 +19,32 @@ html {
 .display_flex {
     display: flex !important;
 }
+.display_block{
+    display:block;
+}
+.width_25 {
+    width: 25% !important;
+}
 .width_50 {
     width: 50% !important;
 }
-.width_100{
-    width:100%;
+.width_100 {
+    width: 100% !important;
 }
-.width_33{
-    width:33%;
+.width_33 {
+    width: 33% !important;
 }
 width_auto {
-    width: auto;
+    width: auto !important;
 }
-.text_align_center{
-    text-align:center;
+.height_auto {
+    height:auto;
+}
+.text_align_center {
+    text-align: center !important;
 }
 .color_white {
-    color:white;
+    color: white !important;
 }
 /*tek css kodlu elementler end*/
 body {
