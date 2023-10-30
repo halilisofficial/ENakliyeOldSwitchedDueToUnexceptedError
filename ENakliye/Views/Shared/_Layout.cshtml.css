@@ -76,6 +76,7 @@ button.accept-policy {
     list-style: none;
     background: #b31010; /*navbar background color*/
     color: black;
+    height:40px;
 }
 .navbarul .navbarli{
     display:inline-block;
@@ -198,3 +199,10 @@ text-decoration: none !important;
 }
 /*social media icon end*/
     /*footer end*/
+@media (max-width: 1062px) {  
+    /* Ekran genişliği 1062 pikselden küçükse bu stil değişiklikleri uygulanır */
+    /*1062 den küçük ekranlarda searchbar iletişim elemanını kapatmaya başlıyor*/
+    .hide_navbar_elements_in_smaller_screen {
+        display: none !important;
+    }
+}

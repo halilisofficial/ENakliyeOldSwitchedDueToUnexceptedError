@@ -56,10 +56,6 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tcGFueVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/ENakliye/ENakliye/Views/Company/OverView.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tcGFueVxPdmVyVmlldy5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
 [D:/ENakliye/ENakliye/Views/Company/SuccsessStories.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tcGFueVxTdWNjc2Vzc1N0b3JpZXMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
@@ -110,10 +106,6 @@ build_metadata.AdditionalFiles.CssScope =
 
 [D:/ENakliye/ENakliye/Views/News/Journal.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTmV3c1xKb3VybmFsLmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
-[D:/ENakliye/ENakliye/Views/News/OverView.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTmV3c1xPdmVyVmlldy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/ENakliye/ENakliye/Views/Product/Advert.cshtml]
