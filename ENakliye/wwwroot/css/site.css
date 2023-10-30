@@ -38,7 +38,7 @@ width_auto {
     width: auto !important;
 }
 .height_auto {
-    height:auto;
+    height:auto !important;
 }
 .text_align_center {
     text-align: center !important;

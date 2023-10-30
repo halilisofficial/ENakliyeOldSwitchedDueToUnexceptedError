@@ -60,6 +60,18 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tcGFueVxTdWNjc2Vzc1N0b3JpZXMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
+[D:/ENakliye/ENakliye/Views/Company/_PartialViewFreightForwarder.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tcGFueVxfUGFydGlhbFZpZXdGcmVpZ2h0Rm9yd2FyZGVyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ENakliye/ENakliye/Views/Company/_PartialViewManufacturingAndTrade.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tcGFueVxfUGFydGlhbFZpZXdNYW51ZmFjdHVyaW5nQW5kVHJhZGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ENakliye/ENakliye/Views/Company/_PartialViewRoadHaulier.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tcGFueVxfUGFydGlhbFZpZXdSb2FkSGF1bGllci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/ENakliye/ENakliye/Views/Contuct/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29udHVjdFxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
