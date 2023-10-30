@@ -140,10 +140,6 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/ENakliye/ENakliye/Views/Product/OverView.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFxPdmVyVmlldy5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
 [D:/ENakliye/ENakliye/Views/Product/RatingsFeature.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFxSYXRpbmdzRmVhdHVyZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
@@ -186,10 +182,6 @@ build_metadata.AdditionalFiles.CssScope =
 
 [D:/ENakliye/ENakliye/Views/Servis/InternationalDebtCollection.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2VydmlzXEludGVybmF0aW9uYWxEZWJ0Q29sbGVjdGlvbi5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[D:/ENakliye/ENakliye/Views/Servis/OverView.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2VydmlzXE92ZXJWaWV3LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/ENakliye/ENakliye/Views/Servis/Security.cshtml]

@@ -10,7 +10,7 @@ namespace ENakliye.Controllers
         }
         public IActionResult OverView()//genel bakış
         {
-            return View();
+            return View("Index");
         }
         public IActionResult Advert()//ilanlar
         {
