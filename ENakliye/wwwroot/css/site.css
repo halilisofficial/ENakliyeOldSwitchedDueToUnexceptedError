@@ -216,6 +216,12 @@ body {
 .transport_dictionary_hr {
     width: 100%; height: 2px; background-color: black; border: solid 0.25px; margin: 10px 0;
 }
+.transport_dictionary_list_item {
+   list-style: none;cursor: pointer;width:auto;
+}
+.transport_dictionary_list_item:hover {
+    text-decoration: underline;
+}
 /*servis css end*/
 @media (max-width: 1062px) {
     /*1062 den küçük ekranlarda searchbar iletiþim elemanýný kapatmaya baþlýyor*/

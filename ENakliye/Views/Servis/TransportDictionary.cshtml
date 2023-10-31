@@ -14,16 +14,25 @@
 <div class="home_index_customer_section_main_div margin_between_sections display_block height_auto">
     <div class="display_flex">
         @*unordered list start*@
-        <ul class="home_index_best_services_section_unordered_list">
-            <li class="home_index_best_services_section_list_items ">
-                <a class="nav-link text-black" onclick="loadPartialView('/Servis/LoadPartialView?partialViewName=TransportDictionaryPartialViews/_PartialViewA','#service_transport_dictionary_changable_content')">A</a>
-            </li>
-            <li class="home_index_best_services_section_list_items">
-                <a class="nav-link text-black" onclick="loadPartialView('/Servis/LoadPartialView?partialViewName=TransportDictionaryPartialViews/_PartialViewB','#service_transport_dictionary_changable_content')">B</a>
-            </li>
-            <li class="home_index_best_services_section_list_items">
-                <a class="nav-link text-black" onclick="loadPartialView('/Servis/LoadPartialView?partialViewName=TransportDictionaryPartialViews/_PartialViewCH','#service_transport_dictionary_changable_content')">Ç</a>
-            </li>
+        <ul class="home_index_best_services_section_unordered_list" style="flex-wrap: wrap;">
+            @{
+                /* [0]->partial view dosyasının özel karakterini verir
+                   [1]->bu dosyanın temsil ettiği türkçe karakteri verir  
+                   */
+                string[,] harfler = { { "A", "A" }, { "B", "B" }, { "CH", "Ç" }, { "D", "D" }, { "E", "E" }, { "F", "F" }, { "G", "G" }, { "H", "H" }, { "J", "J" }, { "K", "K" }, { "L", "L" }, { "M", "M" }, { "N", "N" }, { "O", "O" }, { "O1", "Ö" }, { "P", "P" }, { "R", "R" }, { "S", "S" }, { "S1", "Ş" }, { "T", "T" }, { "U", "U" }, { "U1", "Ü" }, { "V", "V" }, { "Y", "Y" }, { "Z", "Z" } };
+                string partialViewLocation;
+                string karakterharfi;
+            }
+            @for (int i = 0; i < harfler.GetLength(0); i++)
+            {
+                partialViewLocation = "/Servis/LoadPartialView?partialViewName=TransportDictionaryPartialViews/_PartialView" + harfler[i, 0];
+                karakterharfi = harfler[i, 1];
+                <li class="transport_dictionary_list_item">
+                    @{
+                        <a class="nav-link text-black" onclick="loadPartialView('@partialViewLocation', '#service_transport_dictionary_changable_content')">@karakterharfi</a>
+                    }
+                </li>
+            }
         </ul>
         @*unordered list end*@
     </div>
