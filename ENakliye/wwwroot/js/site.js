@@ -1,4 +1,15 @@
-﻿// Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification
-// for details on configuring this project to bundle and minify static web assets.
+﻿var button = document.getElementById("scroll_to_top_button");
+var scrollThreshold = 300; // Eşik değeri (100 piksel)
 
-// Write your JavaScript code.
+// Sayfayı aşağı kaydırdıkça butonu görünür hale getir
+window.onscroll = function () {
+    if (document.body.scrollTop > scrollThreshold || document.documentElement.scrollTop > scrollThreshold) {
+        button.style.display = "block";
+    } else {
+        button.style.display = "none";
+    }
+};
+
+function scrollToTop() {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+}
