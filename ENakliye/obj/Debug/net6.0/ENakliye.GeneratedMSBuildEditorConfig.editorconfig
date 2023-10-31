@@ -204,8 +204,20 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2VydmlzXFRyYW5zcG9ydERpY3Rpb25hcnlQYXJ0aWFsVmlld3NcX1BhcnRpYWxWaWV3Qi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/ENakliye/ENakliye/Views/Servis/TransportDictionaryPartialViews/_PartialViewC.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2VydmlzXFRyYW5zcG9ydERpY3Rpb25hcnlQYXJ0aWFsVmlld3NcX1BhcnRpYWxWaWV3Qy5jc2h0bWw=
+[D:/ENakliye/ENakliye/Views/Servis/TransportDictionaryPartialViews/_PartialViewCH.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2VydmlzXFRyYW5zcG9ydERpY3Rpb25hcnlQYXJ0aWFsVmlld3NcX1BhcnRpYWxWaWV3Q0guY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ENakliye/ENakliye/Views/Servis/TransportDictionaryPartialViews/_PartialViewD.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2VydmlzXFRyYW5zcG9ydERpY3Rpb25hcnlQYXJ0aWFsVmlld3NcX1BhcnRpYWxWaWV3RC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ENakliye/ENakliye/Views/Servis/TransportDictionaryPartialViews/_PartialViewE.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2VydmlzXFRyYW5zcG9ydERpY3Rpb25hcnlQYXJ0aWFsVmlld3NcX1BhcnRpYWxWaWV3RS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ENakliye/ENakliye/Views/Servis/TransportDictionaryPartialViews/_PartialViewF.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2VydmlzXFRyYW5zcG9ydERpY3Rpb25hcnlQYXJ0aWFsVmlld3NcX1BhcnRpYWxWaWV3Ri5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/ENakliye/ENakliye/Views/Shared/Error.cshtml]
