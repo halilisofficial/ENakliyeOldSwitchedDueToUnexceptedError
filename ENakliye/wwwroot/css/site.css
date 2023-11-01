@@ -34,7 +34,7 @@ html {
 .width_33 {
     width: 33% !important;
 }
-width_auto {
+.width_auto {
     width: auto !important;
 }
 .height_auto {
@@ -222,6 +222,10 @@ body {
 }
 .transport_dictionary_list_item:hover {
     text-decoration: underline;
+}
+.servis_security_partialview_sub_element_different_color_area{
+background-color:#fa8578;
+height:100%;
 }
 /*servis css end*/
 @media (max-width: 1062px) {

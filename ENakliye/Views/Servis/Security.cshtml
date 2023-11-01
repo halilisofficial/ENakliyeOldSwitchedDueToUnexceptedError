@@ -1,6 +1,58 @@
 ﻿@{
     ViewData["Title"] = "Güvenlik";
 }
-<h1>@ViewData["Title"]</h1>
-
-<p>Güvenlik sayfası</p>
+@*header of page start*@
+<div class="home_index_top_information_main_div home_index_element_background_color color_white" style="height:200px;">
+    <div class="center_div_50_50">
+        <h1 class="text-center text_align_center">
+            Güvenlik
+        </h1>
+    </div>
+</div>
+@*header of page end*@
+<div class="margin_between_sections">
+    <h3>
+        Sistemli koruma; GNY güvenlik ağı
+    </h3>
+   <p>
+        GNY Smart Logistics System, Türkiye genelinde nakliye işlerinin işverenleriyle iş alanlarını birbirine bağlıyor. Hedefimiz, şirketinizin verimliliğini arttırmaktır. Hem de kolay, hızlı ve her şeyden önce güvenli. Bu nedenle, uygulamalarımızın her bir kullanıcısına mümkün olan en yüksek güvenliği sunmak için GNY güvenlik ağını geliştirdik.
+   </p> 
+</div>
+@*partialview area start*@
+<div class="margin_between_sections home_index_customer_section_main_div height_auto">
+    @*adds margin to all elemnts to make them look good*@
+    <div style ="margin:0px 10px 0px 10px;">
+        <div class="text_align_center">
+            <h3>
+                Güvenlik Ağına Toplu Bakış
+            </h3>
+            <p>
+                Sistemimizin güvenliği ve koruması bizim için çok büyük bir önceliğe sahip. Bu nedenle hem yeni, hem de mevcut müşterileri kontrol ediyoruz ve Smart Logistics System kullanıcısı olarak size birçok başka güvenlik hizmeti sunuyoruz.
+            </p>
+        </div>
+        @*unordered list start*@
+        <ul class="home_index_best_services_section_unordered_list text_align_center">
+            <li class="home_index_best_services_section_list_items width_25">
+                <a class="nav-link text-black" onclick="loadPartialView('/Servis/LoadPartialView?partialViewName=SecurityPartialViews/_PartialViewAccessSoftware','#servis_security_changable_div')">  Giriş için bilgisayar Programı  </a>
+            </li>
+            <li class="home_index_best_services_section_list_items width_25">
+                <a class="nav-link text-black" onclick="loadPartialView('/Servis/LoadPartialView?partialViewName=SecurityPartialViews/_PartialViewTechnologies','#servis_security_changable_div')">   Teknoloji   </a>
+            </li>
+            <li class="home_index_best_services_section_list_items width_25">
+                <a class="nav-link text-black" onclick="loadPartialView('/Servis/LoadPartialView?partialViewName=SecurityPartialViews/_PartialViewNewCustomerVerification','#servis_security_changable_div')">  Yeni Müşteri kontrolü </a>
+            </li>
+            <li class="home_index_best_services_section_list_items width_25">
+                <a class="nav-link text-black" onclick="loadPartialView('/Servis/LoadPartialView?partialViewName=SecurityPartialViews/_PartialViewInternationalDebtCollectionService','#servis_security_changable_div')">  Uluslararası tahsilat </a>
+            </li>
+            <li class="home_index_best_services_section_list_items width_25">
+                <a class="nav-link text-black" onclick="loadPartialView('/Servis/LoadPartialView?partialViewName=SecurityPartialViews/_PartialViewIdentityVerification','#servis_security_changable_div')">  Kimlik kontrolü </a>
+            </li>
+        </ul>
+        @*unordered list end*@
+        @*content div start*@
+        <div id="servis_security_changable_div" class="home_index_best_services_section_content_div">
+        </div>
+        @*content div end*@
+    </div>
+</div>
+@*partialview area end*@

@@ -57,17 +57,17 @@ button.accept-policy {
     bottom: 20px;
     right: 20px;
     padding: 10px 20px;
-    background-color: #007bff;
+    background-color: #b31010;
     color: #fff;
     border: none;
     border-radius: 5px;
     cursor: pointer;
     z-index: 999;
-    font-size:24px;
+    font-size: 24px;
 }
 
     #scroll_to_top_button:hover {
-        background-color: #0056b3;
+        background-color: red;
     }
 .footer {
   position: absolute;

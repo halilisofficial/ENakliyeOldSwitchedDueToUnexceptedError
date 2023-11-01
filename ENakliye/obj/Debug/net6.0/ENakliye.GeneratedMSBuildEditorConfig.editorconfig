@@ -188,6 +188,26 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2VydmlzXFNlY3VyaXR5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
+[D:/ENakliye/ENakliye/Views/Servis/SecurityPartialViews/_PartialViewAccessSoftware.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2VydmlzXFNlY3VyaXR5UGFydGlhbFZpZXdzXF9QYXJ0aWFsVmlld0FjY2Vzc1NvZnR3YXJlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ENakliye/ENakliye/Views/Servis/SecurityPartialViews/_PartialViewIdentityVerification.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2VydmlzXFNlY3VyaXR5UGFydGlhbFZpZXdzXF9QYXJ0aWFsVmlld0lkZW50aXR5VmVyaWZpY2F0aW9uLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ENakliye/ENakliye/Views/Servis/SecurityPartialViews/_PartialViewInternationalDebtCollectionService.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2VydmlzXFNlY3VyaXR5UGFydGlhbFZpZXdzXF9QYXJ0aWFsVmlld0ludGVybmF0aW9uYWxEZWJ0Q29sbGVjdGlvblNlcnZpY2UuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ENakliye/ENakliye/Views/Servis/SecurityPartialViews/_PartialViewNewCustomerVerification.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2VydmlzXFNlY3VyaXR5UGFydGlhbFZpZXdzXF9QYXJ0aWFsVmlld05ld0N1c3RvbWVyVmVyaWZpY2F0aW9uLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ENakliye/ENakliye/Views/Servis/SecurityPartialViews/_PartialViewTechnologies.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2VydmlzXFNlY3VyaXR5UGFydGlhbFZpZXdzXF9QYXJ0aWFsVmlld1RlY2hub2xvZ2llcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/ENakliye/ENakliye/Views/Servis/TransportBaroMeter.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2VydmlzXFRyYW5zcG9ydEJhcm9NZXRlci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
