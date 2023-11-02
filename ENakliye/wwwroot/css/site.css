@@ -50,6 +50,9 @@ html {
     background-color: #2c3644 !important
 }
 /*tek css kodlu elementler end*/
+.blue_bold_link {
+    text-decoration:none;font-weight:bold;
+}
 body {
     margin-bottom: 60px;
 }

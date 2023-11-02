@@ -65,5 +65,9 @@ namespace ENakliye.Controllers
             return View();
         }
         #endregion
+        public IActionResult LoadPartialView(string partialViewName)
+        {
+            return PartialView(partialViewName);
+        }
     }
 }
