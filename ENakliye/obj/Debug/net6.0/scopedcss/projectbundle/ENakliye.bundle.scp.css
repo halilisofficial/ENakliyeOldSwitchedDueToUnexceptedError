@@ -1,7 +1,7 @@
 /* _content/ENakliye/Views/Shared/_Layout.cshtml.rz.scp.css */
 /*
-    timocom sitesinin css dosya yolu
-    top>timcdnprd.azureedge.net>resource>themes/timocom>css
+    GNY sitesinin css dosya yolu
+    top>timcdnprd.azureedge.net>resource>themes/GNY>css
 */
 /*default css start*/
 
@@ -65,10 +65,12 @@ button.accept-policy[b-qxk9jv2l3y] {
     cursor: pointer;
     z-index: 999;
     font-size: 24px;
+    opacity: 0.7;
 }
 
     #scroll_to_top_button:hover[b-qxk9jv2l3y] {
         background-color: red;
+        opacity: 1;
     }
 .footer[b-qxk9jv2l3y] {
   position: absolute;
