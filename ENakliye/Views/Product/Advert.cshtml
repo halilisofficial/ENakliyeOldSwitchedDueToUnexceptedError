@@ -1,6 +1,56 @@
 ﻿@{
     ViewData["Title"] = "İlanlar";
 }
-<h1>@ViewData["Title"]</h1>
+@*header of page start*@
+<div class="home_index_top_information_main_div home_index_element_background_color color_white" style="height:200px;">
+    <div class="center_div_50_50">
+        <h1 class="text-center text_align_center">
+            İlanlar
+        </h1>
+    </div>
+</div>
+@*header of page end*@
+<div class ="margin_between_sections">
+    <h3>
+        Tekrar­lanan nakliyatlar için ilan­ çözümleri
+    </h3>
+    <ul>
+        <li>
+            Avrupa çapında tekrarlanan nakliye işleri verin veya ilanlara teklif verin
+        </li>
+        <li>
+            Planlamanızı optimize edin ve boş yolculukları azaltın
+        </li>
+        <li>
+            Kontrol edilmiş bağlantılarla ağınızı genişletin
+        </li>
+    </ul>
+</div>
+<div class="margin_between_sections">
+    <h3 class="text_align_center">
+        Uygun partnerlerle daha iyi çalışın
+    </h3>
+    <p>
+        Düzenli nakliyatlar için güvenilir partnerler bulun ya da taşıma kapasitenizi kalıcı olarak kullanmayı garanti edin.
+    </p>
+</div>
 
-<p>İlanlar sayfası</p>
+<div class="margin_between_sections home_index_customer_section_main_div">
+    @*unordered list start*@
+    <ul class="home_index_best_services_section_unordered_list text_align_center">
+        <li class="home_index_best_services_section_list_items width_50">
+            <a class="nav-link text-black" onclick="loadPartialView('/Product/LoadPartialView?partialViewName=AdvertPartialViews/_PartialViewBidders','#servis_advert_changable_content_div')">  Teklif verenler</a>
+        </li>
+        <li class="home_index_best_services_section_list_items width_50">
+            <a class="nav-link text-black" onclick="loadPartialView('/Product/LoadPartialView?partialViewName=AdvertPartialViews/_PartialViewTenderingCompany','#servis_advert_changable_content_div')">İlan verenler</a>
+        </li>
+      
+    </ul>
+    @*unordered list end*@
+    @*content div start*@
+    <div id="servis_advert_changable_content_div" class="home_index_best_services_section_content_div">
+        <partial name="AdvertPartialViews/_PartialViewBidders" />
+    </div>
+    @*content div end*@
+</div>
+<partial name="../Shared/PartialViews/_PartialViewContuctInfo" />
