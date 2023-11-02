@@ -32,6 +32,18 @@ namespace ENakliye.Controllers
         {
             return View();
         }
+        public IActionResult FreightExchangeInterface()//yük borsası arayüzü 
+        {
+            return View();
+        }
+        public IActionResult TransportOrderInterface()//nakliye siparişleri arayüzü
+        {
+            return View();
+        }
+        public IActionResult TrackingInterface()//takip arayüzü
+        {
+            return View();
+        }
         public IActionResult LoadPartialView(string partialViewName)
         {
             return PartialView(partialViewName);
