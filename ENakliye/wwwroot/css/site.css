@@ -53,6 +53,9 @@ html {
 .blue_bold_link {
     text-decoration:none;font-weight:bold;
 }
+.left_right_padding {
+    padding:0px 20px 0px 20px;
+}
 body {
     margin-bottom: 60px;
 }
@@ -176,7 +179,14 @@ body {
 /*home index best services end*/
 /*home index customers section start*/
 .home_index_customer_section_main_div {
-    width:100%;height:500px;background-color:#f0f0f0;
+    width: 100%;
+    height: 500px;
+    background-color:#fffeef ;
+    /* ? açýk krem
+        #fff0e6
+        #f0f0f0
+        #fff5e1 normal krem
+    */
 }
 /*home index customers section end*/
 /*now try section start*/
@@ -226,9 +236,13 @@ body {
 .transport_dictionary_list_item:hover {
     text-decoration: underline;
 }
-.servis_security_partialview_sub_element_different_color_area{
-background-color:#fa8578;
-height:100%;
+.servis_security_partialview_sub_element_different_color_area {
+    background-color: #FFDFBF;
+    /*
+#fa8578
+ #FFDAB9
+*/
+    height: 100%;
 }
 /*servis css end*/
 @media (max-width: 1062px) {

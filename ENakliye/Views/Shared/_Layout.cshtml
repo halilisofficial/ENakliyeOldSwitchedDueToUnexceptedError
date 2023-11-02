@@ -184,11 +184,13 @@
         </ul>
         @*navbar end*@
     </header>
-    <div class="container">
+    <div>
+        @*class="container" kaldırılıp sayfaların %100 oranda kullanılması sağlanmıştır*@
         <main role="main" class="pb-3">
             @RenderBody()
             @*position:absolute;bottom:0 olan footerdan kurtulmak için brler eklenmiştir
             footer bu brlerin tam üstüne üstüne gelip sitedeki normal elementlerin görünmesini engellemiyor*@
+            <partial name="PartialViews/_PartialViewContuctInfo" />
             @*footer br start*@
             <button onclick="scrollToTop()" id="scroll_to_top_button">
                 <strong>
