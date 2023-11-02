@@ -48,6 +48,18 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tcGFueVxDdXN0b21lclJlZmVyZW5jZXMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
+[D:/ENakliye/ENakliye/Views/Company/CustomerReferencesPartialViews/_PartialViewFreightForwarder.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tcGFueVxDdXN0b21lclJlZmVyZW5jZXNQYXJ0aWFsVmlld3NcX1BhcnRpYWxWaWV3RnJlaWdodEZvcndhcmRlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ENakliye/ENakliye/Views/Company/CustomerReferencesPartialViews/_PartialViewManufacturingAndTrade.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tcGFueVxDdXN0b21lclJlZmVyZW5jZXNQYXJ0aWFsVmlld3NcX1BhcnRpYWxWaWV3TWFudWZhY3R1cmluZ0FuZFRyYWRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ENakliye/ENakliye/Views/Company/CustomerReferencesPartialViews/_PartialViewRoadHaulier.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tcGFueVxDdXN0b21lclJlZmVyZW5jZXNQYXJ0aWFsVmlld3NcX1BhcnRpYWxWaWV3Um9hZEhhdWxpZXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/ENakliye/ENakliye/Views/Company/CustomerRequitCostemers.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tcGFueVxDdXN0b21lclJlcXVpdENvc3RlbWVycy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
@@ -60,56 +72,44 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tcGFueVxTdWNjc2Vzc1N0b3JpZXMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/ENakliye/ENakliye/Views/Company/_PartialViewFreightForwarder.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tcGFueVxfUGFydGlhbFZpZXdGcmVpZ2h0Rm9yd2FyZGVyLmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
-[D:/ENakliye/ENakliye/Views/Company/_PartialViewManufacturingAndTrade.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tcGFueVxfUGFydGlhbFZpZXdNYW51ZmFjdHVyaW5nQW5kVHJhZGUuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
-[D:/ENakliye/ENakliye/Views/Company/_PartialViewRoadHaulier.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tcGFueVxfUGFydGlhbFZpZXdSb2FkSGF1bGllci5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
 [D:/ENakliye/ENakliye/Views/Contuct/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29udHVjdFxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/ENakliye/ENakliye/Views/Contuct/_PartialViewCompanyCommunication.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29udHVjdFxfUGFydGlhbFZpZXdDb21wYW55Q29tbXVuaWNhdGlvbi5jc2h0bWw=
+[D:/ENakliye/ENakliye/Views/Contuct/IndexPartialViews/_PartialViewCompanyCommunication.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29udHVjdFxJbmRleFBhcnRpYWxWaWV3c1xfUGFydGlhbFZpZXdDb21wYW55Q29tbXVuaWNhdGlvbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/ENakliye/ENakliye/Views/Contuct/_PartialViewCustomerCare.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29udHVjdFxfUGFydGlhbFZpZXdDdXN0b21lckNhcmUuY3NodG1s
+[D:/ENakliye/ENakliye/Views/Contuct/IndexPartialViews/_PartialViewCustomerCare.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29udHVjdFxJbmRleFBhcnRpYWxWaWV3c1xfUGFydGlhbFZpZXdDdXN0b21lckNhcmUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/ENakliye/ENakliye/Views/Contuct/_PartialViewInternationalDebtCollection.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29udHVjdFxfUGFydGlhbFZpZXdJbnRlcm5hdGlvbmFsRGVidENvbGxlY3Rpb24uY3NodG1s
+[D:/ENakliye/ENakliye/Views/Contuct/IndexPartialViews/_PartialViewInternationalDebtCollection.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29udHVjdFxJbmRleFBhcnRpYWxWaWV3c1xfUGFydGlhbFZpZXdJbnRlcm5hdGlvbmFsRGVidENvbGxlY3Rpb24uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/ENakliye/ENakliye/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[D:/ENakliye/ENakliye/Views/Home/IndexPartialViews/_PartialViewFreightExchange.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleFBhcnRpYWxWaWV3c1xfUGFydGlhbFZpZXdGcmVpZ2h0RXhjaGFuZ2UuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ENakliye/ENakliye/Views/Home/IndexPartialViews/_PartialViewInterfaces.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleFBhcnRpYWxWaWV3c1xfUGFydGlhbFZpZXdJbnRlcmZhY2VzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ENakliye/ENakliye/Views/Home/IndexPartialViews/_PartialViewTransportBarometer.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleFBhcnRpYWxWaWV3c1xfUGFydGlhbFZpZXdUcmFuc3BvcnRCYXJvbWV0ZXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ENakliye/ENakliye/Views/Home/IndexPartialViews/_PartialViewValueAddedServices.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleFBhcnRpYWxWaWV3c1xfUGFydGlhbFZpZXdWYWx1ZUFkZGVkU2VydmljZXMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/ENakliye/ENakliye/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
-[D:/ENakliye/ENakliye/Views/Home/_PartialViewFreightExchange.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxfUGFydGlhbFZpZXdGcmVpZ2h0RXhjaGFuZ2UuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
-[D:/ENakliye/ENakliye/Views/Home/_PartialViewInterfaces.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxfUGFydGlhbFZpZXdJbnRlcmZhY2VzLmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
-[D:/ENakliye/ENakliye/Views/Home/_PartialViewTransportBarometer.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxfUGFydGlhbFZpZXdUcmFuc3BvcnRCYXJvbWV0ZXIuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
-[D:/ENakliye/ENakliye/Views/Home/_PartialViewValueAddedServices.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxfUGFydGlhbFZpZXdWYWx1ZUFkZGVkU2VydmljZXMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/ENakliye/ENakliye/Views/News/Index.cshtml]

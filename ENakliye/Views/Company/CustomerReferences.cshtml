@@ -18,54 +18,19 @@
     @*unordered list start*@
     <ul class="home_index_best_services_section_unordered_list">
         <li class="home_index_best_services_section_list_items width_33">
-            <a class="nav-link text-black" onclick="loadPartialView('/Company/LoadPartialView?partialViewName=_PartialViewManufacturingAndTrade','#company_customer_references_changable_content_div')"> Üretim ve Ticaret </a>
+            <a class="nav-link text-black" onclick="loadPartialView('/Company/LoadPartialView?partialViewName=CustomerReferencesPartialViews/_PartialViewManufacturingAndTrade','#company_customer_references_changable_content_div')"> Üretim ve Ticaret </a>
         </li>
         <li class="home_index_best_services_section_list_items width_33">
-            <a class="nav-link text-black" onclick="loadPartialView('/Company/LoadPartialView?partialViewName=_PartialViewFreightForwarder','#company_customer_references_changable_content_div')"> Nakliyeci</a>
+            <a class="nav-link text-black" onclick="loadPartialView('/Company/LoadPartialView?partialViewName=CustomerReferencesPartialViews/_PartialViewFreightForwarder','#company_customer_references_changable_content_div')"> Nakliyeci</a>
         </li>
         <li class="home_index_best_services_section_list_items width_33">
-            <a class="nav-link text-black" onclick="loadPartialView('/Company/LoadPartialView?partialViewName=_PartialViewRoadHaulier','#company_customer_references_changable_content_div')">Taşıyıcı</a>
+            <a class="nav-link text-black" onclick="loadPartialView('/Company/LoadPartialView?partialViewName=CustomerReferencesPartialViews/_PartialViewRoadHaulier','#company_customer_references_changable_content_div')">Taşıyıcı</a>
         </li>
     </ul>
     @*unordered list end*@
     @*content div start*@
     <div id="company_customer_references_changable_content_div" class="home_index_best_services_section_content_div">
-        @*page content start*@
-        <div class="home_index_customer_section_main_div margin_between_sections display_block height_auto text_align_center">
-            @*block 1 start*@
-            <div class="display_flex">
-                <div class="width_25">
-                    GNY yi kullanan üretim ve ticaret firmaların logoları bu bölümlere eklenecektir. link ile web sitelerine yönlendirme yapılacaktır.
-                </div>
-                <div class="width_25">
-                    img
-                </div>
-                <div class="width_25">
-                    img
-                </div>
-                <div class="width_25">
-                    img
-                </div>
-            </div>
-            @*block 1 end*@
-            @*block 2 start*@
-            <div class="display_flex margin_between_sections">
-                <div class="width_25">
-                    img
-                </div>
-                <div class="width_25">
-                    img
-                </div>
-                <div class="width_25">
-                    img
-                </div>
-                <div class="width_25">
-                    img
-                </div>
-            </div>
-            @*block 2 end*@
-        </div>
-        @*page content end*@
+        <partial name="CustomerReferencesPartialViews/_PartialViewManufacturingAndTrade" />
     </div>
     @*content div end*@
 </div> 
