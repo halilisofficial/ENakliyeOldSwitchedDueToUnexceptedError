@@ -28,4 +28,8 @@ app.MapAreaControllerRoute(
     name: "areaDefault",
     areaName:"AdminPanel",
     pattern: "admin/{controller=Home}/{action=Index}/{id?}");
+app.MapAreaControllerRoute(
+    name: "userAreaDefault",
+    areaName: "UserPanel",
+    pattern: "user/{controller=UserHome}/{action=Index}/{id?}");
 app.Run();

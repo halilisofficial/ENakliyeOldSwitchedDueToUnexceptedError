@@ -8,9 +8,10 @@ namespace ENakliye.Controllers
 {
     public class AccountController : Controller
     {
+        [HttpGet]
         public ActionResult Login()
         {
-            return View();
+            return View("Login");
         }
 
         public ActionResult SignUp()
@@ -25,30 +26,20 @@ namespace ENakliye.Controllers
         {
             return View();
         }
-        /* 
-        [HttpPost]
-        public ActionResult Login(UserModel model)
-        {
-            // Kullanıcı giriş bilgilerini doğrulama ve işlemler burada yapılır.
-            // Örnek olarak, kullanıcıyı oturum açmış olarak işaretleme işlemi yapılabilir.
 
+        [HttpPost]
+        public ActionResult LoginControl(UserModel model)
+        {
             if (ModelState.IsValid)
             {
-                // Kullanıcıyı oturum açmış olarak işaretleme işlemi
-                // FormsAuthentication veya Identity kullanılabilir.
-                // Örneğin, Identity kullanımı:
-                var user = new ClaimsPrincipal(new ClaimsIdentity(new[]
+                string gmail = model.Gmail;
+                string password = model.Password;
+                if (true)//validasyon işlemi yapılacaktır
                 {
-                new Claim(ClaimTypes.Name, model.UserName),
-            }, "custom"));
-
-                HttpContext.SignInAsync(CookieAuthenticationDefaults.AuthenticationScheme, user);
-
-                return RedirectToAction(actionName: "Index", controllerName: "Home"); // Başka bir sayfaya yönlendirme
+                    return RedirectToRoute("userAreaDefault", new { area = "UserPanel", controller = "UserHome", action = "Index" });
+                }
             }
-
-            return View(model);
+            return RedirectToAction("Index", "Home");
         }
-        */
     }
 }

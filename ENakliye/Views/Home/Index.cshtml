@@ -18,7 +18,7 @@
         @*bottom buttons div start*@
         <div class="home_index_top_information_buttons_div">
             @*form login start*@
-            <form asp-area="" asp-controller="Account" asp-action="Login" type="submit">
+            <form asp-area="" asp-controller="Account" asp-action="Login" method="get">
                 <button class="home_index_top_information_buttons" style="margin-right:20px; width:140px;">
                     <text class="home_index_top_information_button_text_color">
                         Giriş Yap
@@ -27,7 +27,7 @@
             </form>
             @*form login end*@
             @*form sign up start*@
-            <form asp-area="" asp-controller="Account" asp-action="SignUp" type="submit">
+            <form asp-area="" asp-controller="Account" asp-action="SignUp" method="get">
                 <button class="home_index_top_information_buttons" style="margin-left:20px; width:140px;">
                     <text class="home_index_top_information_button_text_color">
                         Üye Ol
@@ -140,7 +140,7 @@
     </h3>
     @*sign up button start*@
     <div class="home_index_now_try_section_button_div">
-        <form asp-area="" asp-controller="Account" asp-action="SignUp" type="submit">
+        <form asp-area="" asp-controller="Account" asp-action="SignUp" method="get">
             <button class="home_index_top_information_buttons">
                 <text class="home_index_top_information_button_text_color">
                     Şimdi Müşteri Olun
