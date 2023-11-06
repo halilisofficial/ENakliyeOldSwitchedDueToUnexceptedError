@@ -5,7 +5,7 @@ namespace ENakliye.Areas.UserPanel.Controllers
     [Area("UserPanel")]
     public class UserHomeController : Controller
     {
-        public IActionResult Index()
+        public IActionResult IndexHomeUser()
         {
             return View();
         }

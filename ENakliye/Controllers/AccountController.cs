@@ -36,7 +36,7 @@ namespace ENakliye.Controllers
                 string password = model.Password;
                 if (true)//validasyon işlemi yapılacaktır
                 {
-                    return RedirectToRoute("userAreaDefault", new { area = "UserPanel", controller = "UserHome", action = "Index" });
+                    return RedirectToRoute("userAreaDefault", new { area = "UserPanel", controller = "UserHome", action = "IndexHomeUser" });
                 }
             }
             return RedirectToAction("Index", "Home");

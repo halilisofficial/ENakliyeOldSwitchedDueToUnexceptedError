@@ -1,0 +1,162 @@
+﻿<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - GNY</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/ENakliye.styles.css" asp-append-version="true" />
+</head>
+<body>
+    <header>
+        @*navbar start*@
+        <div class="user_layout_navbar">
+        </div>
+        @*navbar end*@
+    </header>
+    <div>
+        <main role="main" class="pb-3">
+            @*left menu parent div start*@
+            <div class="user_layout_menu_parent_div">
+                @*left menu chield the marginer start*@
+                <div class="user_layout_menu_marginer_div">
+                    @*unordered list start*@
+                    <ul class="user_layout_menu_ul">
+                        @*li strt*@
+                        <li>
+                            <h3>Menü:</h3>
+                        </li>
+                        @*li nd*@
+                        @*li strt*@
+                        <li>
+                            @*link to page start*@
+                            <a class="user_layout_menu_link_to_page" asp-area="" asp-controller="" asp-action="">
+                                @*div img icon strt*@
+                                <div class="user_layout_menu_link_to_page_img_div">
+                                    <img class="width_100 height_100" src="~/resource/icons/UserLayoutMenuIcons/freight_ff4040_48px.png" />
+                                </div>
+                                @*div img icon end*@
+                                @*div txt strt*@
+                                <div class="user_layout_menu_text_div">
+                                    Yük Borsası
+                                </div>
+                                @*div txt end*@
+                            </a>
+                            @*link to page end*@
+                        </li>
+                        @*li end*@
+                        @*li strt*@
+                        <li>
+                            @*link to page start*@
+                            <a class="user_layout_menu_link_to_page" asp-area="" asp-controller="" asp-action="">
+                                @*div img icon strt*@
+                                <div class="user_layout_menu_link_to_page_img_div">
+                                    <img class="width_100 height_100" src="~/resource/icons/UserLayoutMenuIcons/vehicle_space_ff4040_48px.png" />
+                                </div>
+                                @*div img icon end*@
+                                @*div txt strt*@
+                                <div class="user_layout_menu_text_div">
+                                    Boş Araç
+                                </div>
+                                @*div txt end*@
+                            </a>
+                            @*link to page end*@
+                        </li>
+                        @*li end*@
+                        @*li strt*@
+                        <li>
+                            @*link to page start*@
+                            <a class="user_layout_menu_link_to_page" asp-area="" asp-controller="" asp-action="">
+                                @*div img icon strt*@
+                                <div class="user_layout_menu_link_to_page_img_div">
+                                    <img class="width_100 height_100" src="~/resource/icons/UserLayoutMenuIcons/warehouse_ff4040_48px.png" />
+                                </div>
+                                @*div img icon end*@
+                                @*div txt strt*@
+                                <div class="user_layout_menu_text_div">
+                                    Depo
+                                </div>
+                                @*div txt end*@
+                            </a>
+                            @*link to page end*@
+                        </li>
+                        @*li end*@
+                        @*li strt*@
+                        <li>
+                            @*link to page start*@
+                            <a class="user_layout_menu_link_to_page" asp-area="" asp-controller="" asp-action="">
+                                @*div img icon strt*@
+                                <div class="user_layout_menu_link_to_page_img_div">
+                                    <img class="width_100 height_100" src="~/resource/icons/UserLayoutMenuIcons/advert_ff4040_48px.png"/>
+                                </div>
+                                @*div img icon end*@
+                                @*div txt strt*@
+                                <div class="user_layout_menu_text_div">
+                                    İlanlar
+                                </div>
+                                @*div txt end*@
+                            </a>
+                            @*link to page end*@
+                        </li>
+                        @*li end*@
+                        @*li strt*@
+                        <li>
+                            @*link to page start*@
+                            <a class="user_layout_menu_link_to_page" asp-area="" asp-controller="" asp-action="">
+                                @*div img icon strt*@
+                                <div class="user_layout_menu_link_to_page_img_div">
+                                    <img class="width_100 height_100" src="~/resource/icons/UserLayoutMenuIcons/route_ff4040_48px.png" />
+                                </div>
+                                @*div img icon end*@
+                                @*div txt strt*@
+                                <div class="user_layout_menu_text_div">
+                                    Rotalar
+                                </div>
+                                @*div txt end*@
+                            </a>
+                            @*link to page end*@
+                        </li>
+                        @*li end*@
+                        @*li strt*@
+                        <li>
+                            @*link to page start*@
+                            <a class="user_layout_menu_link_to_page" asp-area="" asp-controller="" asp-action="">
+                                @*div img icon strt*@
+                                <div class="user_layout_menu_link_to_page_img_div">
+                                    <img class="width_100 height_100" src="~/resource/icons/UserLayoutMenuIcons/statistic_ff4040_48px.png"  />
+                                </div>
+                                @*div img icon end*@
+                                @*div txt strt*@
+                                <div class="user_layout_menu_text_div">
+                                    İstatistik
+                                </div>
+                                @*div txt end*@
+                            </a>
+                            @*link to page end*@
+                        </li>
+                        @*li end*@
+                    </ul>
+                    @*unordered list end*@
+                </div>
+                @*left menu chield the marginer end*@
+            </div>
+            @*left menu parent div end*@
+
+
+            @RenderBody()
+            @for (int i = 0; i < 100; i++)
+            {
+                <br />
+            }
+        </main>
+    </div>
+
+    <footer>
+    </footer>
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>

@@ -1,67 +1,87 @@
 html {
-  font-size: 14px;
+    font-size: 14px;
 }
 
 @media (min-width: 768px) {
-  html {
-    font-size: 16px;
-  }
+    html {
+        font-size: 16px;
+    }
 }
 
 html {
-  position: relative;
-  min-height: 100%;
+    position: relative;
+    min-height: 100%;
 }
 /*tek css kodlu elementler start*/
 .font_weight_bold {
     font-weight: bold !important;
 }
+
 .display_flex {
     display: flex !important;
 }
-.display_block{
-    display:block;
+
+.display_block {
+    display: block;
 }
+
 .width_25 {
     width: 25% !important;
 }
+
 .width_50 {
     width: 50% !important;
 }
+
 .width_100 {
     width: 100% !important;
 }
+
+.height_100 {
+    height: 100% !important;
+}
+
 .width_33 {
     width: 33% !important;
 }
+
 .width_auto {
     width: auto !important;
 }
+
 .height_auto {
-    height:auto !important;
+    height: auto !important;
 }
+
 .text_align_center {
     text-align: center !important;
 }
+
 .justify_content_center {
     justify-content: center;
 }
+
 .color_white {
     color: white !important;
 }
+
 .background_color_gray {
     background-color: #2c3644 !important
 }
 /*tek css kodlu elementler end*/
 .blue_bold_link {
-    text-decoration:none;font-weight:bold;
+    text-decoration: none;
+    font-weight: bold;
 }
+
 .left_right_padding {
-    padding:0px 20px 0px 20px;
+    padding: 0px 20px 0px 20px;
 }
+
 body {
     margin-bottom: 60px;
 }
+
 .layout_footer_social_media_icon {
     width: 30px;
     height: 30px;
@@ -76,6 +96,7 @@ body {
     left: 50%;
     transform: translate(-50%, -10%);
 }
+
 .center_div_50_50 {
     position: absolute;
     background-color: transparent;
@@ -84,21 +105,25 @@ body {
     transform: translate(-50%, -50%);
 }
 
-.login-page-register-button{
-    position:absolute;
-    right:0;
+.login-page-register-button {
+    position: absolute;
+    right: 0;
 }
-.login-page-text-area{
-    width:100%;
+
+.login-page-text-area {
+    width: 100%;
 }
-.login-page-child-divs{
+
+.login-page-child-divs {
     margin-top: 10px;
 }
-.text_decoration_none{
-    text-decoration:none;
+
+.text_decoration_none {
+    text-decoration: none;
 }
-.margin_10px{
-    margin:10px !important;
+
+.margin_10px {
+    margin: 10px !important;
 }
 /*login page css end*/
 /*Home index css start*/
@@ -137,7 +162,7 @@ body {
 .home_index_top_information_buttons {
     border: none;
     border-radius: 10px;
-    width:auto;
+    width: auto;
 }
 
 .home_index_top_information_button_text_color {
@@ -148,16 +173,18 @@ body {
 .margin_between_sections {
     margin-top: 50px;
 }
+
 .home_index_about_us_section_main_div {
     display: flex;
 }
-.home_index_about_us_section_chield_divs{
+
+.home_index_about_us_section_chield_divs {
     width: 50%;
 }
-.home_index_about_us_section_image{
-    float: right; 
-    margin-right:30px;
-   
+
+.home_index_about_us_section_image {
+    float: right;
+    margin-right: 30px;
 }
 /*Home index about us section end*/
 
@@ -167,23 +194,27 @@ body {
     list-style: none;
     cursor: pointer;
 }
-    .home_index_best_services_section_list_items:hover{
-        text-decoration:underline;
+
+    .home_index_best_services_section_list_items:hover {
+        text-decoration: underline;
     }
+
 .home_index_best_services_section_unordered_list {
     display: flex;
     justify-content: center;
     align-items: center;
 }
+
 .home_index_best_services_section_content_div {
-   width:100%;height:auto;
+    width: 100%;
+    height: auto;
 }
 /*home index best services end*/
 /*home index customers section start*/
 .home_index_customer_section_main_div {
     width: 100%;
     height: 500px;
-    background-color:#fff4e4 ;
+    background-color: #fff4e4;
     /*  açýk krem
         #fff0e6
         #f0f0f0
@@ -193,10 +224,12 @@ body {
 /*home index customers section end*/
 /*now try section start*/
 .home_index_now_try_section_main_div {
-    width:100%;height:250px;
+    width: 100%;
+    height: 250px;
 }
+
 .home_index_now_try_section_button_div {
-    margin-top:50px;
+    margin-top: 50px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -207,37 +240,61 @@ body {
 /*news css start*/
 
 .news_row_div {
-    display:flex;
+    display: flex;
 }
+
 .news_card {
     width: 300px;
     height: 400px;
 }
-.news_card:hover{
-    margin-top:-10px;
-}
+
+    .news_card:hover {
+        margin-top: -10px;
+    }
+
 .news_form_button {
-  background-color: transparent; border: solid 1px; display: flex; flex-direction: column; align-items: center; justify-content: flex-start;
+    background-color: transparent;
+    border: solid 1px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
 }
+
 .news_h_p_separator {
-    width: 80%; height: 2px; background-color: black; border: none; margin: 10px 0;
+    width: 80%;
+    height: 2px;
+    background-color: black;
+    border: none;
+    margin: 10px 0;
 }
 
 /*news css end*/
 
 /*servis css start*/
 .transport_dictionary_main_div {
-    border: solid 1px; margin: 10px;
+    border: solid 1px;
+    margin: 10px;
 }
+
 .transport_dictionary_hr {
-    width: 100%; height: 2px; background-color: black; border: solid 0.25px; margin: 10px 0;
+    width: 100%;
+    height: 2px;
+    background-color: black;
+    border: solid 0.25px;
+    margin: 10px 0;
 }
+
 .transport_dictionary_list_item {
-   list-style: none;cursor: pointer;width:auto;
+    list-style: none;
+    cursor: pointer;
+    width: auto;
 }
-.transport_dictionary_list_item:hover {
-    text-decoration: underline;
-}
+
+    .transport_dictionary_list_item:hover {
+        text-decoration: underline;
+    }
+
 .servis_security_partialview_sub_element_different_color_area {
     background-color: #FFDFCE;
     /*
@@ -247,6 +304,66 @@ body {
     height: 100%;
 }
 /*servis css end*/
+/*user area css start*/
+.user_layout_menu_link_to_page {
+    display: flex;
+    height: 48px;
+    width: 150px;
+    cursor: pointer;
+    margin: 20px 0px;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+}
+
+    .user_layout_menu_link_to_page:hover {
+        color: white;
+        font-size:17px;
+    }
+
+.user_layout_menu_link_to_page_img_div {
+    height: 48px;
+    width: 48px;
+}
+
+.user_layout_menu_ul {
+    list-style: none;
+    display: block;
+    padding-left: 0;
+    margin-top:60px;
+}
+
+.user_layout_menu_marginer_div {
+    position: relative;
+    margin: 50px 25px 0px 25px;
+    width: 150px;
+    height: auto;
+    text-align: left;
+    color: white;
+}
+
+.user_layout_menu_parent_div {
+    position: absolute;
+    left: 0;
+    height: 100%;
+    min-width: 200px;
+    max-width: 200px;
+    background-color: #FF8080;
+    z-index: 999;
+}
+
+.user_layout_navbar {
+    position: absolute;
+    top: 0;
+    min-height: 50px;
+    max-height: 50px;
+    width: 100%;
+    background-color: #FF4040;
+}
+.user_layout_menu_text_div {
+    padding: 10px 0px 0px 10px; height: 48px;
+}
+/*user area css end*/
 @media (max-width: 1062px) {
     /*1062 den küçük ekranlarda searchbar iletiþim elemanýný kapatmaya baþlýyor*/
     /* Ekran geniþliði 1062 pikselden küçükse bu stil deðiþiklikleri uygulanýr */

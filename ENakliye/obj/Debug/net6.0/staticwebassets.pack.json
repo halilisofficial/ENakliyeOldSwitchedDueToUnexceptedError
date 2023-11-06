@@ -253,6 +253,30 @@
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
+      "Id": "D:\\ENakliye\\ENakliye\\wwwroot\\resource\\icons\\UserLayoutMenuIcons\\advert_ff4040_48px.png",
+      "PackagePath": "staticwebassets\\resource\\icons\\UserLayoutMenuIcons\\advert_ff4040_48px.png"
+    },
+    {
+      "Id": "D:\\ENakliye\\ENakliye\\wwwroot\\resource\\icons\\UserLayoutMenuIcons\\freight_ff4040_48px.png",
+      "PackagePath": "staticwebassets\\resource\\icons\\UserLayoutMenuIcons\\freight_ff4040_48px.png"
+    },
+    {
+      "Id": "D:\\ENakliye\\ENakliye\\wwwroot\\resource\\icons\\UserLayoutMenuIcons\\route_ff4040_48px.png",
+      "PackagePath": "staticwebassets\\resource\\icons\\UserLayoutMenuIcons\\route_ff4040_48px.png"
+    },
+    {
+      "Id": "D:\\ENakliye\\ENakliye\\wwwroot\\resource\\icons\\UserLayoutMenuIcons\\statistic_ff4040_48px.png",
+      "PackagePath": "staticwebassets\\resource\\icons\\UserLayoutMenuIcons\\statistic_ff4040_48px.png"
+    },
+    {
+      "Id": "D:\\ENakliye\\ENakliye\\wwwroot\\resource\\icons\\UserLayoutMenuIcons\\vehicle_space_ff4040_48px.png",
+      "PackagePath": "staticwebassets\\resource\\icons\\UserLayoutMenuIcons\\vehicle_space_ff4040_48px.png"
+    },
+    {
+      "Id": "D:\\ENakliye\\ENakliye\\wwwroot\\resource\\icons\\UserLayoutMenuIcons\\warehouse_ff4040_48px.png",
+      "PackagePath": "staticwebassets\\resource\\icons\\UserLayoutMenuIcons\\warehouse_ff4040_48px.png"
+    },
+    {
       "Id": "D:\\ENakliye\\ENakliye\\wwwroot\\resource\\icons\\facebook.png",
       "PackagePath": "staticwebassets\\resource\\icons\\facebook.png"
     },

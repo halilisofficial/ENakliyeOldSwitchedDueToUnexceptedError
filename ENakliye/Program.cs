@@ -31,5 +31,5 @@ app.MapAreaControllerRoute(
 app.MapAreaControllerRoute(
     name: "userAreaDefault",
     areaName: "UserPanel",
-    pattern: "user/{controller=UserHome}/{action=Index}/{id?}");
+    pattern: "user/{controller=UserHome}/{action=IndexHomeUser}/{id?}");
 app.Run();
