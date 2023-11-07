@@ -277,6 +277,18 @@
       "PackagePath": "staticwebassets\\resource\\icons\\UserLayoutMenuIcons\\warehouse_ff4040_48px.png"
     },
     {
+      "Id": "D:\\ENakliye\\ENakliye\\wwwroot\\resource\\icons\\UserLayoutNavbarIcons24px\\logout_ff4040_24px.png",
+      "PackagePath": "staticwebassets\\resource\\icons\\UserLayoutNavbarIcons24px\\logout_ff4040_24px.png"
+    },
+    {
+      "Id": "D:\\ENakliye\\ENakliye\\wwwroot\\resource\\icons\\UserLayoutNavbarIcons24px\\settings_ff4040_24px.png",
+      "PackagePath": "staticwebassets\\resource\\icons\\UserLayoutNavbarIcons24px\\settings_ff4040_24px.png"
+    },
+    {
+      "Id": "D:\\ENakliye\\ENakliye\\wwwroot\\resource\\icons\\UserLayoutNavbarIcons24px\\user_ff4040_24px.png",
+      "PackagePath": "staticwebassets\\resource\\icons\\UserLayoutNavbarIcons24px\\user_ff4040_24px.png"
+    },
+    {
       "Id": "D:\\ENakliye\\ENakliye\\wwwroot\\resource\\icons\\facebook.png",
       "PackagePath": "staticwebassets\\resource\\icons\\facebook.png"
     },

@@ -346,22 +346,26 @@ body {
     position: absolute;
     left: 0;
     height: 100%;
-    min-width: 200px;
-    max-width: 200px;
-    background-color: #FF8080;
+    width: 200px;
+    background-color: #79a9ff;
     z-index: 999;
 }
 
 .user_layout_navbar {
     position: absolute;
     top: 0;
-    min-height: 50px;
-    max-height: 50px;
+    height: 50px;
     width: 100%;
-    background-color: #FF4040;
+    background-color: #6699ff;
 }
 .user_layout_menu_text_div {
     padding: 10px 0px 0px 10px; height: 48px;
+}
+.user_layout_navbar_right_main_div {
+   position:absolute;right:20px;display:flex;margin-top:12px;color:white;font-weight:bold;
+}
+.user_layout_navbar_right_settings_logout {
+   margin-left:20px
 }
 /*user area css end*/
 @media (max-width: 1062px) {

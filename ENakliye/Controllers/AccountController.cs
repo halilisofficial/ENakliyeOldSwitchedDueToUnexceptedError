@@ -30,16 +30,16 @@ namespace ENakliye.Controllers
         [HttpPost]
         public ActionResult LoginControl(UserModel model)
         {
-            if (ModelState.IsValid)
-            {
-                string gmail = model.Gmail;
-                string password = model.Password;
-                if (true)//validasyon işlemi yapılacaktır
-                {
+         //   if (ModelState.IsValid)
+         //   {
+          //      string gmail = model.Gmail;
+          //      string password = model.Password;
+          //      if (true)//validasyon işlemi yapılacaktır
+           //     {
                     return RedirectToRoute("userAreaDefault", new { area = "UserPanel", controller = "UserHome", action = "IndexHomeUser" });
-                }
-            }
-            return RedirectToAction("Index", "Home");
+         //       }
+        //    }
+        //    return RedirectToAction("Index", "Home");
         }
     }
 }
